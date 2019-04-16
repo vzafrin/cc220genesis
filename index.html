@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CC220 Digital Edition</title>
+      <!--<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">-->
+      <link rel="stylesheet" href="css/jquery-ui.css" />
+      <link rel="stylesheet" href="css/CETEIcean.css" media="screen" charset="utf-8" />
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/cc220.css">
+  <!--<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>-->
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>-->
+  <script src="js/jquery-ui.min.js"></script>
+  <script src="js/CETEI.js"></script>
+  <script src="js/cc220.js"></script>
+</head>
+<body>
+
+<div id="navbar">
+  <span id="nav-brand"><a href="">The Book of Genesis <span class="light small">Digital Edition</span></a></span> 
+  <div id="nav-items">
+    <span class="nav-item active" data-section="text">Text</span>
+    <span class="nav-item" data-section="about">About</span>
+    <span class="nav-item" data-section="bibliography">Bibliography</span>
+  </div>
+</div>
+
+<div id="text" class="section">
+	<div id="text-sticky">
+  <div id="text-header">
+    <div id="text-menu">
+      <input type="checkbox" id="comment-toggle" data-for="comment" class="menu-item offscreen"/>
+      <label for="comment-toggle">Analyze</label>
+      <input type="checkbox" id="interp-toggle" data-for="interp" class="menu-item offscreen"/>
+      <label for="interp-toggle">Explore</label>  
+    </div>
+    <div>
+    <label id="notes-filter-label" for="notes-filter">Notes Filter</label>
+    <select id="notes-filter">
+    	<option value="">All</option>
+    	<option value="one">Person One</option>
+    	<option value="two">Person Two</option>
+    	<option value="three">Person Three</option>
+    	<option value="four">Person Four</option>
+    	<option value="five">Person Five</option>
+    </select>
+</div>
+</div>
+  </div>
+  <div id="main" class="text-content">
+    <div id="wrap">
+
+      <div id="comment">
+        <div class="header">
+          <span>Analyze<i class="far fa-question-circle light help" aria-hidden="true"></i></span><i class="fa fa-times close light" data-for="comment" aria-hidden="true"></i>
+        </div>
+         <div id="comment-help" class="help-content">
+        	Here's some info about the Analyze section. <span class="ok light">see less</span>
+        </div>
+        <div class="content">
+	        <p >Lorem ipsum dolor sit amet. Ex aliquam ratione ex commodi delectus quo quia quod est perspiciatis alias? Sit earum magni ut sint nobis vel earum Quis. In illo dolorem cum velit nisi et optio vero eum quos quae aut sunt quis. Est minima commodi aut enim corrupti sed minima quia eos delectus exercitationem sed ratione obcaecati eos ducimus accusantium.</p>
+	        <p >Qui odio enim quo iste eveniet in recusandae quod et atque atque qui magnam internos. Et molestias vero ut odio recusandae nam pariatur illo et ipsum. </p><img src="https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F5%2F5c%2FFrance-Saissac-vue_d%2527ensemble.jpg%2F1200px-France-Saissac-vue_d%2527ensemble.jpg&f=1" />
+	        <p>Ad eveniet ipsum sit dolor reiciendis et exercitationem voluptate et adipisci nobis et voluptas magni ut necessitatibus perferendis. Ut deserunt reprehenderit qui quidem itaque et quia voluptas sit temporibus eveniet. Ut harum quidem nam enim quia sed dolorum cupiditate sit similique beatae sed rerum porro et facere eligendi? Est aperiam eligendi non maiores harum quo dolore similique?</p>
+	        <p >Lorem ipsum dolor sit amet. Ex aliquam ratione ex commodi delectus quo quia quod est perspiciatis alias? Sit earum magni ut sint nobis vel earum Quis. In illo dolorem cum velit nisi et optio vero eum quos quae aut sunt quis. Est minima commodi aut enim corrupti sed minima quia eos delectus exercitationem sed ratione obcaecati eos ducimus accusantium.</p>
+	        <p >Qui odio enim quo iste eveniet in recusandae quod et atque atque qui magnam internos. Et molestias vero ut odio recusandae nam pariatur illo et ipsum. </p><img src="https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F5%2F5c%2FFrance-Saissac-vue_d%2527ensemble.jpg%2F1200px-France-Saissac-vue_d%2527ensemble.jpg&f=1" />
+	        <p>Ad eveniet ipsum sit dolor reiciendis et exercitationem voluptate et adipisci nobis et voluptas magni ut necessitatibus perferendis. Ut deserunt reprehenderit qui quidem itaque et quia voluptas sit temporibus eveniet. Ut harum quidem nam enim quia sed dolorum cupiditate sit similique beatae sed rerum porro et facere eligendi? Est aperiam eligendi non maiores harum quo dolore similique?</p>
+	        <p >Lorem ipsum dolor sit amet. Ex aliquam ratione ex commodi delectus quo quia quod est perspiciatis alias? Sit earum magni ut sint nobis vel earum Quis. In illo dolorem cum velit nisi et optio vero eum quos quae aut sunt quis. Est minima commodi aut enim corrupti sed minima quia eos delectus exercitationem sed ratione obcaecati eos ducimus accusantium.</p>
+	        <p >Qui odio enim quo iste eveniet in recusandae quod et atque atque qui magnam internos. Et molestias vero ut odio recusandae nam pariatur illo et ipsum. </p><img src="https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F5%2F5c%2FFrance-Saissac-vue_d%2527ensemble.jpg%2F1200px-France-Saissac-vue_d%2527ensemble.jpg&f=1" />
+	        <p>Ad eveniet ipsum sit dolor reiciendis et exercitationem voluptate et adipisci nobis et voluptas magni ut necessitatibus perferendis. Ut deserunt reprehenderit qui quidem itaque et quia voluptas sit temporibus eveniet. Ut harum quidem nam enim quia sed dolorum cupiditate sit similique beatae sed rerum porro et facere eligendi? Est aperiam eligendi non maiores harum quo dolore similique?</p>
+    	</div>
+      </div>
+
+      <div id="interp">
+        <div class="header">
+          <span>Explore<i class="far fa-question-circle light help" aria-hidden="true"></i></span><i class="fa fa-times close light" data-for="interp" aria-hidden="true"></i>
+     
+        </div>
+        <div id="interp-help" class="help-content">
+        	Here's some info about the Explore section. <span class="ok light">see less</span>
+        </div>
+        <div id="clear-formatting" class="light">Clear all formatting</div>
+        <div class="accordion"><span>Themes &amp; Motifs</span><div><span class="badge">0</span><i class="fas fa-chevron-down arrow light" aria-hidden="true"></i></div></div>
+	    <div class="panel">
+	        <p id="toledot" class="interp"><span>generations</span></p>
+	        <p id="water" class="interp"><span>water</span></p>
+	        <p id="separation" class="interp"><span>separation</span></p>
+	        <p id="creation" class="interp"><span>creation</span></p>
+	        <p id="consequence" class="interp"><span>consequence</span></p>
+	        <p id="seven" class="interp"><span>seven</span></p>
+	        <p id="food" class="interp"><span>food</span></p>
+	        <p id="combination" class="interp"><span>combination</span></p>
+	        <p id="farmer" class="interp"><span>farmer</span></p>
+	        <p id="forty" class="interp"><span>forty</span></p>
+	        <p id="shepherd" class="interp"><span>shepherd</span></p>	
+		</div>
+      
+      	<div class="accordion"><span>Literary Devices</span><div><span class="badge">0</span><i class="fas fa-chevron-down arrow light" aria-hidden="true"></i></div></div>
+	    <div class="panel">
+	        <p id="repetition" class="interp"><span>repetition</span></p>
+	        <p id="personification" class="interp"><span>personification</span></p>
+	        <p id="symbol" class="interp"><span>symbol</span></p>
+	        <p id="hyperbole" class="interp"><span>hyperbole</span></p>
+		</div>
+      
+      	<div class="accordion"><span>Authority</span><div><span class="badge">0</span><i class="fas fa-chevron-down arrow light" aria-hidden="true"></i></div></div>
+	    <div class="panel">
+	        <p id="commandment" class="interp">commandment</p>
+	        <p id="declaration" class="interp"><span>declaration</span></p>
+	        <p id="punishment" class="interp"><span>punishment</span></p>
+	        <p id="obedience" class="interp"><span>obedience</span></p>
+	        <p id="reward" class="interp"><span>reward</span></p>
+	        <p id="covenant" class="interp"><span>covenant</span></p>
+	        <p id="independence" class="interp"><span>independence</span></p>
+	        <p id="disobedience" class="interp"><span>disobedience</span></p>
+		</div>
+    
+      	<div class="accordion"><span>Values</span><div><span class="badge">0</span><i class="fas fa-chevron-down arrow light" aria-hidden="true"></i></div></div>
+	  	<div class="panel">
+	        <p id="good" class="interp">good</p>
+	        <p id="holy" class="interp"><span>holy</span></p>
+	        <p id="bad" class="interp"><span>bad</span></p>
+	        <p id="evil" class="interp"><span>evil</span></p>
+	        <p id="ambiguous" class="interp"><span>ambiguous</span></p>
+		</div>
+      </div>
+        
+
+      <div id="TEI">
+
+        
+      </div>
+    </div>
+  </div>
+
+
+  <div id="formatter" title="Format">
+    <span  id="target" data-target=""/>
+    <div class="row">
+      <button id="highlight1" class="formatter"><span>Aa</span></button>
+      <button id="highlight2" class="formatter"><span>Aa</span></button>
+      <button id="highlight3" class="formatter"><span>Aa</span></button>
+      <button id="highlight4" class="formatter"><span>Aa</span></button>
+      <button id="highlight5" class="formatter"><span>Aa</span></button>
+    </div>
+    <div class="row">
+      <button id="pen1" class="formatter"><span>Aa</span></button>
+      <button id="pen2" class="formatter"><span>Aa</span></button>
+      <button id="pen3" class="formatter"><span>Aa</span></button>
+      <button id="pen4" class="formatter"><span>Aa</span></button>
+      <button id="pen5" class="formatter"><span>Aa</span></button>
+    </div>
+    <div class="row">
+      <button id="line1" class="formatter"><span>Aa</span></button>
+      <button id="line2" class="formatter"><span>Aa</span></button>
+      <button id="line3" class="formatter"><span>Aa</span></button>
+      <button id="line4" class="formatter"><span>Aa</span></button>
+      <button id="line5" class="formatter"><span>Aa</span></button>
+    </div>
+    <div class="row">
+      <button id="highlight6" class="formatter"><span>Aa</span></button>
+      <button id="bold" class="formatter"><span>Aa</span></button>
+      <button id="italic" class="formatter"><span>Aa</span></button>
+      <button id="dot" class="formatter"><span>Aa</span></button>
+      <button id="border" class="formatter"><span>Aa</span></button>
+      <button id="none" class="formatter"><span>Clear formatting</span></button>
+    </div>
+  </div>
+</div>
+
+<div id="bibliography" class="section">
+    <p >Lorem ipsum dolor sit amet. Ex aliquam ratione ex commodi delectus quo quia quod est perspiciatis alias? Sit earum magni ut sint nobis vel earum Quis. In illo dolorem cum velit nisi et optio vero eum quos quae aut sunt quis. Est minima commodi aut enim corrupti sed minima quia eos delectus exercitationem sed ratione obcaecati eos ducimus accusantium.</p>
+    <p >Qui odio enim quo iste eveniet in recusandae quod et atque atque qui magnam internos. Et molestias vero ut odio recusandae nam pariatur illo et ipsum.</p>
+    <p >Lorem ipsum dolor sit amet. Ex aliquam ratione ex commodi delectus quo quia quod est perspiciatis alias? Sit earum magni ut sint nobis vel earum Quis. In illo dolorem cum velit nisi et optio vero eum quos quae aut sunt quis. Est minima commodi aut enim corrupti sed minima quia eos delectus exercitationem sed ratione obcaecati eos ducimus accusantium.</p>
+    <p >Qui odio enim quo iste eveniet in recusandae quod et atque atque qui magnam internos. Et molestias vero ut odio recusandae nam pariatur illo et ipsum.</p>    <p >Lorem ipsum dolor sit amet. Ex aliquam ratione ex commodi delectus quo quia quod est perspiciatis alias? Sit earum magni ut sint nobis vel earum Quis. In illo dolorem cum velit nisi et optio vero eum quos quae aut sunt quis. Est minima commodi aut enim corrupti sed minima quia eos delectus exercitationem sed ratione obcaecati eos ducimus accusantium.</p>
+    <p >Qui odio enim quo iste eveniet in recusandae quod et atque atque qui magnam internos. Et molestias vero ut odio recusandae nam pariatur illo et ipsum.</p>
+    <p >Lorem ipsum dolor sit amet. Ex aliquam ratione ex commodi delectus quo quia quod est perspiciatis alias? Sit earum magni ut sint nobis vel earum Quis. In illo dolorem cum velit nisi et optio vero eum quos quae aut sunt quis. Est minima commodi aut enim corrupti sed minima quia eos delectus exercitationem sed ratione obcaecati eos ducimus accusantium.</p>
+    <p >Qui odio enim quo iste eveniet in recusandae quod et atque atque qui magnam internos. Et molestias vero ut odio recusandae nam pariatur illo et ipsum.</p>
+    <p >Lorem ipsum dolor sit amet. Ex aliquam ratione ex commodi delectus quo quia quod est perspiciatis alias? Sit earum magni ut sint nobis vel earum Quis. In illo dolorem cum velit nisi et optio vero eum quos quae aut sunt quis. Est minima commodi aut enim corrupti sed minima quia eos delectus exercitationem sed ratione obcaecati eos ducimus accusantium.</p>
+    <p >Qui odio enim quo iste eveniet in recusandae quod et atque atque qui magnam internos. Et molestias vero ut odio recusandae nam pariatur illo et ipsum.</p>
+    <p >Lorem ipsum dolor sit amet. Ex aliquam ratione ex commodi delectus quo quia quod est perspiciatis alias? Sit earum magni ut sint nobis vel earum Quis. In illo dolorem cum velit nisi et optio vero eum quos quae aut sunt quis. Est minima commodi aut enim corrupti sed minima quia eos delectus exercitationem sed ratione obcaecati eos ducimus accusantium.</p>
+    <p >Qui odio enim quo iste eveniet in recusandae quod et atque atque qui magnam internos. Et molestias vero ut odio recusandae nam pariatur illo et ipsum.</p>
+    <p >Lorem ipsum dolor sit amet. Ex aliquam ratione ex commodi delectus quo quia quod est perspiciatis alias? Sit earum magni ut sint nobis vel earum Quis. In illo dolorem cum velit nisi et optio vero eum quos quae aut sunt quis. Est minima commodi aut enim corrupti sed minima quia eos delectus exercitationem sed ratione obcaecati eos ducimus accusantium.</p>
+    <p >Qui odio enim quo iste eveniet in recusandae quod et atque atque qui magnam internos. Et molestias vero ut odio recusandae nam pariatur illo et ipsum.</p>
+    <p >Lorem ipsum dolor sit amet. Ex aliquam ratione ex commodi delectus quo quia quod est perspiciatis alias? Sit earum magni ut sint nobis vel earum Quis. In illo dolorem cum velit nisi et optio vero eum quos quae aut sunt quis. Est minima commodi aut enim corrupti sed minima quia eos delectus exercitationem sed ratione obcaecati eos ducimus accusantium.</p>
+    <p >Qui odio enim quo iste eveniet in recusandae quod et atque atque qui magnam internos. Et molestias vero ut odio recusandae nam pariatur illo et ipsum.</p>
+</div>
+<div id="about" class="section">
+    <p >Lorem ipsum dolor sit amet. Ex aliquam ratione ex commodi delectus quo quia quod est perspiciatis alias? Sit earum magni ut sint nobis vel earum Quis. In illo dolorem cum velit nisi et optio vero eum quos quae aut sunt quis. Est minima commodi aut enim corrupti sed minima quia eos delectus exercitationem sed ratione obcaecati eos ducimus accusantium.</p>
+    <p >Qui odio enim quo iste eveniet in recusandae quod et atque atque qui magnam internos. Et molestias vero ut odio recusandae nam pariatur illo et ipsum.</p>
+    <p >Lorem ipsum dolor sit amet. Ex aliquam ratione ex commodi delectus quo quia quod est perspiciatis alias? Sit earum magni ut sint nobis vel earum Quis. In illo dolorem cum velit nisi et optio vero eum quos quae aut sunt quis. Est minima commodi aut enim corrupti sed minima quia eos delectus exercitationem sed ratione obcaecati eos ducimus accusantium.</p>
+    <p >Qui odio enim quo iste eveniet in recusandae quod et atque atque qui magnam internos. Et molestias vero ut odio recusandae nam pariatur illo et ipsum.</p>
+    <p >Qui odio enim quo iste eveniet in recusandae quod et atque atque qui magnam internos. Et molestias vero ut odio recusandae nam pariatur illo et ipsum. </p><img src="https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F5%2F5c%2FFrance-Saissac-vue_d%2527ensemble.jpg%2F1200px-France-Saissac-vue_d%2527ensemble.jpg&f=1" />
+
+    <p >Lorem ipsum dolor sit amet. Ex aliquam ratione ex commodi delectus quo quia quod est perspiciatis alias? Sit earum magni ut sint nobis vel earum Quis. In illo dolorem cum velit nisi et optio vero eum quos quae aut sunt quis. Est minima commodi aut enim corrupti sed minima quia eos delectus exercitationem sed ratione obcaecati eos ducimus accusantium.</p>
+    <p >Qui odio enim quo iste eveniet in recusandae quod et atque atque qui magnam internos. Et molestias vero ut odio recusandae nam pariatur illo et ipsum.</p>
+    <p >Qui odio enim quo iste eveniet in recusandae quod et atque atque qui magnam internos. Et molestias vero ut odio recusandae nam pariatur illo et ipsum. </p><img src="https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F5%2F5c%2FFrance-Saissac-vue_d%2527ensemble.jpg%2F1200px-France-Saissac-vue_d%2527ensemble.jpg&f=1" />
+    <p >Lorem ipsum dolor sit amet. Ex aliquam ratione ex commodi delectus quo quia quod est perspiciatis alias? Sit earum magni ut sint nobis vel earum Quis. In illo dolorem cum velit nisi et optio vero eum quos quae aut sunt quis. Est minima commodi aut enim corrupti sed minima quia eos delectus exercitationem sed ratione obcaecati eos ducimus accusantium.</p>
+    <p >Qui odio enim quo iste eveniet in recusandae quod et atque atque qui magnam internos. Et molestias vero ut odio recusandae nam pariatur illo et ipsum.</p>
+    <p >Qui odio enim quo iste eveniet in recusandae quod et atque atque qui magnam internos. Et molestias vero ut odio recusandae nam pariatur illo et ipsum. </p><img src="https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F5%2F5c%2FFrance-Saissac-vue_d%2527ensemble.jpg%2F1200px-France-Saissac-vue_d%2527ensemble.jpg&f=1" />
+    <p >Lorem ipsum dolor sit amet. Ex aliquam ratione ex commodi delectus quo quia quod est perspiciatis alias? Sit earum magni ut sint nobis vel earum Quis. In illo dolorem cum velit nisi et optio vero eum quos quae aut sunt quis. Est minima commodi aut enim corrupti sed minima quia eos delectus exercitationem sed ratione obcaecati eos ducimus accusantium.</p>
+    <p >Qui odio enim quo iste eveniet in recusandae quod et atque atque qui magnam internos. Et molestias vero ut odio recusandae nam pariatur illo et ipsum.</p>
+    <p >Qui odio enim quo iste eveniet in recusandae quod et atque atque qui magnam internos. Et molestias vero ut odio recusandae nam pariatur illo et ipsum. </p><img src="https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F5%2F5c%2FFrance-Saissac-vue_d%2527ensemble.jpg%2F1200px-France-Saissac-vue_d%2527ensemble.jpg&f=1" />
+    <p >Lorem ipsum dolor sit amet. Ex aliquam ratione ex commodi delectus quo quia quod est perspiciatis alias? Sit earum magni ut sint nobis vel earum Quis. In illo dolorem cum velit nisi et optio vero eum quos quae aut sunt quis. Est minima commodi aut enim corrupti sed minima quia eos delectus exercitationem sed ratione obcaecati eos ducimus accusantium.</p>
+    <p >Qui odio enim quo iste eveniet in recusandae quod et atque atque qui magnam internos. Et molestias vero ut odio recusandae nam pariatur illo et ipsum.</p>
+    <p >Lorem ipsum dolor sit amet. Ex aliquam ratione ex commodi delectus quo quia quod est perspiciatis alias? Sit earum magni ut sint nobis vel earum Quis. In illo dolorem cum velit nisi et optio vero eum quos quae aut sunt quis. Est minima commodi aut enim corrupti sed minima quia eos delectus exercitationem sed ratione obcaecati eos ducimus accusantium.</p>
+    <p >Qui odio enim quo iste eveniet in recusandae quod et atque atque qui magnam internos. Et molestias vero ut odio recusandae nam pariatur illo et ipsum.</p>
+    <p >Lorem ipsum dolor sit amet. Ex aliquam ratione ex commodi delectus quo quia quod est perspiciatis alias? Sit earum magni ut sint nobis vel earum Quis. In illo dolorem cum velit nisi et optio vero eum quos quae aut sunt quis. Est minima commodi aut enim corrupti sed minima quia eos delectus exercitationem sed ratione obcaecati eos ducimus accusantium.</p>
+    <p >Qui odio enim quo iste eveniet in recusandae quod et atque atque qui magnam internos. Et molestias vero ut odio recusandae nam pariatur illo et ipsum.</p>
+    <p >Lorem ipsum dolor sit amet. Ex aliquam ratione ex commodi delectus quo quia quod est perspiciatis alias? Sit earum magni ut sint nobis vel earum Quis. In illo dolorem cum velit nisi et optio vero eum quos quae aut sunt quis. Est minima commodi aut enim corrupti sed minima quia eos delectus exercitationem sed ratione obcaecati eos ducimus accusantium.</p>
+    <p >Qui odio enim quo iste eveniet in recusandae quod et atque atque qui magnam internos. Et molestias vero ut odio recusandae nam pariatur illo et ipsum.</p>
+    <p >Lorem ipsum dolor sit amet. Ex aliquam ratione ex commodi delectus quo quia quod est perspiciatis alias? Sit earum magni ut sint nobis vel earum Quis. In illo dolorem cum velit nisi et optio vero eum quos quae aut sunt quis. Est minima commodi aut enim corrupti sed minima quia eos delectus exercitationem sed ratione obcaecati eos ducimus accusantium.</p>
+    <p >Qui odio enim quo iste eveniet in recusandae quod et atque atque qui magnam internos. Et molestias vero ut odio recusandae nam pariatur illo et ipsum.</p>
+    <p >Lorem ipsum dolor sit amet. Ex aliquam ratione ex commodi delectus quo quia quod est perspiciatis alias? Sit earum magni ut sint nobis vel earum Quis. In illo dolorem cum velit nisi et optio vero eum quos quae aut sunt quis. Est minima commodi aut enim corrupti sed minima quia eos delectus exercitationem sed ratione obcaecati eos ducimus accusantium.</p>
+    <p >Qui odio enim quo iste eveniet in recusandae quod et atque atque qui magnam internos. Et molestias vero ut odio recusandae nam pariatur illo et ipsum.</p>
+    <p >Lorem ipsum dolor sit amet. Ex aliquam ratione ex commodi delectus quo quia quod est perspiciatis alias? Sit earum magni ut sint nobis vel earum Quis. In illo dolorem cum velit nisi et optio vero eum quos quae aut sunt quis. Est minima commodi aut enim corrupti sed minima quia eos delectus exercitationem sed ratione obcaecati eos ducimus accusantium.</p>
+    <p >Qui odio enim quo iste eveniet in recusandae quod et atque atque qui magnam internos. Et molestias vero ut odio recusandae nam pariatur illo et ipsum.</p>
+</div>
+
+ 
+</body>
+</html>
+
+

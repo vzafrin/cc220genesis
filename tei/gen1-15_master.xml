@@ -1,0 +1,579 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <listPlace>
+                    <place xml:id="l_accad">
+                        <placeName>Accad</placeName>
+                    </place>
+                    <place xml:id="l_ai">
+                        <placeName>Ai</placeName>
+                    </place>
+                    <place xml:id="l_ararat" type="mountain">
+                        <placeName>Ararat</placeName>
+                    </place>
+                    <place xml:id="l_ashur">
+                        <placeName>Ashur</placeName>
+                    </place>
+                    <place xml:id="l_babel">
+                        <placeName>Babel</placeName>
+                    </place>
+                    <place xml:id="l_beth-el">
+                        <placeName>Beth-El</placeName>
+                    </place>
+                    <place xml:id="l_calneh">
+                        <placeName>Calneh</placeName>
+                    </place>
+                    <place xml:id="l_canaan">
+                        <placeName>Canaan</placeName>
+                    </place>
+                    <place xml:id="l_earth">
+                        <placeName>Earth</placeName>
+                    </place>
+                    <place xml:id="l_eden">
+                        <placeName>Eden</placeName>
+                    </place>
+                    <place xml:id="l_egypt">
+                        <placeName>Egypt</placeName>
+                    </place>
+                    <place xml:id="l_enoch">
+                        <placeName>Enoch</placeName>
+                    </place>
+                    <place xml:id="l_erech">
+                        <placeName>Erech</placeName>
+                    </place>
+                    <place xml:id="l_euphrates" type="river">
+                        <placeName>Euphrates</placeName>
+                    </place>
+                    <place xml:id="l_gihon" type="river">
+                        <placeName>Gihon</placeName>
+                    </place>
+                    <place xml:id="l_gomorrah">
+                        <placeName>Gomorrah</placeName>
+                    </place>
+                    <place xml:id="l_haran">
+                        <placeName>Haran</placeName>
+                    </place>
+                    <place xml:id="l_havilah">
+                        <placeName>Havilah</placeName>
+                    </place>
+                    <place xml:id="l_heaven">
+                        <placeName>Heaven</placeName>
+                    </place>
+                    <place xml:id="l_hebron">
+                        <placeName>Hebron</placeName>
+                    </place>
+                    <place xml:id="l_jordan" type="river">
+                        <placeName>Jordan</placeName>
+                    </place>
+                    <place xml:id="l_kush">
+                        <placeName>Kush</placeName>
+                    </place>
+                    <place xml:id="l_mesha">
+                        <placeName>Mesha</placeName>
+                    </place>
+                    <place xml:id="l_nile" type="river">
+                        <placeName>Nile</placeName>
+                    </place>
+                    <place xml:id="l_nod">
+                        <placeName>Nod</placeName>
+                    </place>
+                    <place xml:id="l_pishon" type="river">
+                        <placeName>Pishon</placeName>
+                    </place>
+                    <place xml:id="l_saltsea">
+                        <placeName>Salt Sea</placeName>
+                    </place>
+                    <place xml:id="l_sephar" type="mountain">
+                        <placeName>Sephar</placeName>
+                    </place>
+                    <place xml:id="l_shechem">
+                        <placeName>Shechem</placeName>
+                    </place>
+                    <place xml:id="l_shinar">
+                        <placeName>Shinar</placeName>
+                    </place>
+                    <place xml:id="l_sodom">
+                        <placeName>Sodom</placeName>
+                    </place>
+                    <place xml:id="l_tigris" type="river">
+                        <placeName>Tigris</placeName>
+                    </place>
+                    <place xml:id="l_tree_of_knowledge">
+                        <placeName>Tree of Knowledge</placeName>
+                    </place>
+                    <place xml:id="l_tree_of_life">
+                        <placeName>Tree of Life</placeName>
+                    </place>
+                    <place xml:id="l_ur">
+                        <placeName>Ur</placeName>
+                    </place>
+                    <place xml:id="l_vineyard">
+                        <placeName>Vineyard</placeName>
+                    </place>
+                    <place xml:id="l_zoar">
+                        <placeName>Zoar</placeName>
+                    </place>
+                </listPlace>
+            </settingDesc>
+            <particDesc>
+                <listPerson>
+                    <person xml:id="abel" sex="M">
+                        <persName>Abel</persName>         
+                        <birth when-custom="9999"/>
+                        <death when-custom="9999"/>
+                    </person>
+                    <person xml:id="abraham" sex="M">
+                        <persName>Abraham</persName>         
+                        <birth when-custom="1948"/>
+                        <death when-custom="2123"/>
+                    </person>
+                    <person xml:id="adah" sex="F">
+                        <persName>Adah</persName>         
+                        <birth when-custom="9999"/>
+                        <death when-custom="9999"/>
+                    </person>
+                    <person xml:id="adam" sex="M">
+                        <persName>Adam</persName>         
+                        <birth when-custom="0001"/>
+                        <death when-custom="0930"/>
+                    </person>
+                    <person xml:id="arpachshad" sex="M">
+                        <persName>Arpachshad</persName>         
+                        <birth when-custom="1658"/>
+                        <death when-custom="2096"/>
+                    </person>
+                    <person xml:id="cain" sex="M">
+                        <persName>Cain</persName>         
+                        <birth when-custom="9999"/>
+                        <death when-custom="9999"/>
+                    </person>
+                    <person xml:id="eber" sex="M">
+                        <persName>Eber</persName>         
+                        <birth when-custom="1723"/>
+                        <death when-custom="2187"/>
+                    </person>
+                    <person xml:id="enoch" sex="M">
+                        <persName>Enoch</persName>         
+                        <birth when-custom="0622"/>
+                        <death when-custom="0987"/> <!-- How are we dealing with this? He doesn't die, he's taken up by God -->
+                    </person>
+                    <person xml:id="enosh" sex="M">
+                        <persName>Enosh</persName>         
+                        <birth when-custom="0235"/>
+                        <death when-custom="1140"/>
+                    </person>
+                    <person xml:id="eve" sex="F">
+                        <persName>Eve</persName>         
+                        <birth when-custom="0001"/>
+                        <death when-custom="9999"/>
+                    </person>
+                    <person xml:id="yhwh" sex="O">
+                        <persName type="divine">God</persName>         
+                    </person>
+                    <person xml:id="ham" sex="M">
+                        <persName>Ham</persName>         
+                        <birth when-custom="1556"/>
+                        <death when-custom="9999"/>
+                    </person>
+                    <person xml:id="haran" sex="M">
+                        <persName>Haran</persName>         
+                        <birth when-custom="9999"/>
+                        <death when-custom="9999"/>
+                    </person>
+                    <person xml:id="irad" sex="M">
+                        <persName>Irad</persName>         
+                        <birth when-custom="9999"/>
+                        <death when-custom="9999"/>
+                    </person>
+                    <person xml:id="iscah" sex="F">
+                        <persName>Iscah</persName>         
+                        <birth when-custom="9999"/>
+                        <death when-custom="9999"/>
+                    </person>
+                    <person xml:id="jabal" sex="M">
+                        <persName>Jabal</persName>         
+                        <birth when-custom="9999"/>
+                        <death when-custom="9999"/>
+                    </person>
+                    <person xml:id="japheth" sex="M">
+                        <persName>Japheth</persName>         
+                        <birth when-custom="1556"/>
+                        <death when-custom="9999"/>
+                    </person>
+                    <person xml:id="jared" sex="M">
+                        <persName>Jared</persName>         
+                        <birth when-custom="0460"/>
+                        <death when-custom="1422"/>
+                    </person>
+                    <person xml:id="kenan" sex="M">
+                        <persName>Kenan</persName>         
+                        <birth when-custom="0325"/>
+                        <death when-custom="1235"/>
+                    </person>
+                    <person xml:id="lamech" sex="M">
+                        <persName>Lamech</persName>         
+                        <birth when-custom="0874"/>
+                        <death when-custom="1651"/>
+                    </person>
+                    <person xml:id="lot" sex="M">
+                        <persName>Lot</persName>         
+                        <birth when-custom="9999"/>
+                        <death when-custom="9999"/>
+                    </person>
+                    <person xml:id="mahalalel" sex="M">
+                        <persName>Mahalalel</persName>         
+                        <birth when-custom="0395"/>
+                        <death when-custom="1290"/>
+                    </person>
+                    <person xml:id="mehujael" sex="M">
+                        <persName>Mehujael</persName>         
+                        <birth when-custom="9999"/>
+                        <death when-custom="9999"/>
+                    </person>
+                    <person xml:id="methuselah" sex="M">
+                        <persName>Methuselah</persName>         
+                        <birth when-custom="0687"/>
+                        <death when-custom="1656"/>
+                    </person>
+                    <person xml:id="methushael" sex="M">
+                        <persName>Methushael</persName>         
+                        <birth when-custom="9999"/>
+                        <death when-custom="9999"/>
+                    </person>
+                    <person xml:id="milcah" sex="F">
+                        <persName>Milcah</persName>         
+                        <birth when-custom="9999"/>
+                        <death when-custom="9999"/>
+                    </person>
+                    <person xml:id="naamah" sex="F">
+                        <persName>Naamah</persName>         
+                        <birth when-custom="9999"/>
+                        <death when-custom="9999"/>
+                    </person>
+                    <person xml:id="nahor" sex="m">
+                        <persName>Nahor (son of Serug)</persName>         
+                        <birth when-custom="1849"/>
+                        <death when-custom="1997"/>
+                    </person>
+                    <person xml:id="nahor2" sex="F">
+                        <persName>Nahor (soh of Terah)</persName>         
+                        <birth when-custom="9999"/>
+                        <death when-custom="9999"/>
+                    </person>
+                    <personGrp xml:id="nephilim" sex="O">
+                        <persName type="divine">Nephilim</persName>                            </personGrp>
+                    <person xml:id="noah" sex="M">
+                        <persName>Noah</persName>         
+                        <birth when-custom="1056"/>
+                        <death when-custom="2006"/>
+                    </person>
+                    <person xml:id="peleg" sex="M">
+                        <persName>Peleg</persName>         
+                        <birth when-custom="1757"/>
+                        <death when-custom="1996"/>
+                    </person>
+                    <person xml:id="reu" sex="M">
+                        <persName>Reu</persName>         
+                        <birth when-custom="1787"/>
+                        <death when-custom="2026"/>
+                    </person>
+                    <person xml:id="sarah" sex="F">
+                        <persName>Sarah</persName>         
+                        <birth when-custom="1958"/>
+                        <death when-custom="2085"/>
+                    </person>
+                    <person xml:id="serpent" sex="O">
+                        <persName type="divine">serpent</persName>         
+                    </person>
+                    <person xml:id="serug" sex="M">
+                        <persName>Serug</persName>         
+                        <birth when-custom="1819"/>
+                        <death when-custom="2049"/>
+                    </person>
+                    <person xml:id="seth" sex="M">
+                        <persName>Seth</persName>         
+                        <birth when-custom="0130"/>
+                        <death when-custom="1042"/>
+                    </person>
+                    <person xml:id="shelah" sex="M">
+                        <persName>Shelah</persName>         
+                        <birth when-custom="1693"/>
+                        <death when-custom="2126"/>
+                    </person>
+                    <person xml:id="shem" sex="M">
+                        <persName>Shem</persName>         
+                        <birth when-custom="1556"/>
+                        <death when-custom="2158"/> <!-- Wikipedia says Shem dies in 2158 aged 600, hmm -->
+                    </person>
+                    <person xml:id="terah" sex="M">
+                        <persName>Terah</persName>         
+                        <birth when-custom="1878"/>
+                        <death when-custom="2083"/>
+                    </person>
+                    <person xml:id="tubalcain" sex="M">
+                        <persName>Tubal-cain</persName>         
+                        <birth when-custom="9999"/>
+                        <death when-custom="9999"/>
+                    </person>
+                    <person xml:id="zillah" sex="F">
+                        <persName>Zillah</persName>         
+                        <birth when-custom="9999"/>
+                        <death when-custom="9999"/>
+                    </person>
+                </listPerson>
+            </particDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+
+    <div type="chapter" xml:id="ch1"><head>Chapter 1</head>
+        
+        <ab type="p"><seg xml:id="ch01v1">1</seg><seg ana="#creation"><measure unit="days" n="0">In the beginning</measure> God created <seg ana="#separation">the heaven and the earth</seg></seg>.<anchor xml:id="a01" /> <seg type="verse" xml:id="ch01v2">2</seg>Now the earth was unformed and void, and darkness was upon <seg ana="#personification">the face of the deep</seg>; <seg ana="#water">and <persName ref="#yhwh">the spirit of God</persName> hovered over the <seg ana="#personification">face of the waters</seg></seg>. <seg type="verse" xml:id="ch01v3">3</seg>And God said: <seg ana="#commandment">'Let there be light.'</seg> <seg ana="#obedience">And there was light</seg>. <seg type="verse" xml:id="ch01v4">4</seg><seg ana="#creation">And <seg ana="#good">God saw the light, that it was good</seg></seg>; and <seg ana="#separation">God divided the light from the darkness</seg>. <seg type="verse" xml:id="ch01v5">5</seg>And God called the light Day, and the darkness He called Night. <measure unit="days" n="1">And there was evening and there was morning, one day</measure>.</ab>
+        
+        <ab type="p"><seg type="verse" xml:id="ch01v6">6</seg>And God said: <seg ana="#commandment">'Let there be a firmament <seg ana="#water">in the midst of the waters</seg>, and let it <seg ana="#separation"><seg ana="#water">divide the waters from the waters</seg></seg>.'</seg> <seg type="verse" xml:id="ch01v7">7</seg><seg ana="#repetition">And <seg ana="#creation">God made the firmament</seg>, and <seg ana="#separation">divided the waters which were under the firmament from the waters which were above the firmament</seg></seg>; <seg ana="#obedience">and it was so</seg>. <seg type="verse" xml:id="ch01v8">8</seg><seg ana="#creation">And God called the firmament <placeName ref="#l_heaven">Heaven</placeName></seg>. <measure unit="days" n="2">And there was evening and there was morning, a second day</measure>.</ab>
+        
+        <ab type="p"><seg type="verse" xml:id="ch01v9">9</seg>And God said: <seg ana="#commandment">'<seg ana="#water">Let the waters under the <placeName ref="#l_heaven">heaven</placeName> be gathered together unto one place</seg>, and let the dry land appear.'</seg> <seg ana="#obedience">And it was so</seg>. <seg type="verse" xml:id="ch01v10">10</seg><seg ana="#declaration">And God called the dry land <placeName ref="#l_earth">Earth</placeName>, and <seg ana="#water">the <seg ana="#combination">gathering together</seg> of the waters called He Seas</seg></seg>; and <seg ana="#good">God saw that it was good</seg>. <seg type="verse" xml:id="ch01v11">11</seg>And God said: '<seg ana="#commandment"><seg ana="#toledot">Let the earth put forth grass, herb yielding <seg ana="#symbol">seed</seg>, and fruit-tree bearing fruit after its kind, wherein is the <seg ana="#symbol">seed</seg> thereof, upon the earth</seg>.'</seg> <seg ana="#obedience">And it was so</seg>. <seg type="verse" xml:id="ch01v12">12</seg><seg ana="#repetition">And the earth brought forth grass, herb yielding <seg ana="#symbol">seed</seg> after its kind, and tree bearing fruit, wherein is the <seg ana="#symbol">seed</seg> thereof, after its kind; and <seg ana="#good">God saw that it was good</seg></seg>. <seg type="verse" xml:id="ch01v13">13</seg><measure unit="days" n="3">And there was evening and there was morning, a third day</measure>.</ab>
+        
+        <ab type="p"><seg type="verse" xml:id="ch01v14">14</seg>And God said: <seg ana="#commandment">'Let there be lights in the firmament of the heaven to <seg ana="#separation">divide the day from the night</seg>; and let them be for signs, and for seasons, and for days and years <seg type="verse" xml:id="ch01v15">15</seg>and <seg ana="#repetition">let them be for lights in the firmament of the heaven</seg> to give light upon the earth.'</seg> And <seg ana="#obedience">it was so</seg>. <seg type="verse" xml:id="ch01v16">16</seg><seg ana="#creation">And God made the two great lights</seg>: the greater light to rule the day, and the lesser light to rule the night; and the stars. <seg type="verse" xml:id="ch01v17">17</seg>And God set them in the firmament of the heaven to give light upon the earth <seg type="verse" xml:id="ch01v18">18</seg>and to rule over the day and over the night, and to <seg ana="#separation">divide the light from the darkness</seg>; and <seg ana="#good">God saw that it was good</seg>. <seg type="verse" xml:id="ch01v19">19</seg><measure unit="days" n="4">And there was evening and there was morning, a fourth day</measure>.</ab>
+        
+        <ab type="p"><seg type="verse" xml:id="ch01v20">20</seg>And God said: <seg ana="#commandment">'<seg ana="#personification">Let the waters swarm with swarms of living creatures</seg>, and let <rs type="animal">fowl</rs> fly above the <placeName ref="#l_earth">earth</placeName> in the open firmament of <placeName ref="#l_heaven">heaven</placeName>.'</seg> <seg type="verse" xml:id="ch01v21">21</seg>And <seg ana="#creation">God created the great sea-monsters, and every living creature that creepeth, wherewith the <seg ana="#personification">waters swarmed</seg>, after its kind, and every winged <rs type="animal">fowl</rs> after its kind</seg>; and <seg ana="#good">God saw that it was good</seg>. <seg type="verse" xml:id="ch01v22">22</seg>And God <seg ana="#holy">blessed</seg> them, saying: <seg ana="#commandment">'<seg ana="#toledot">Be fruitful, and multiply, and <seg ana="#water">fill the waters in the seas</seg>, and let fowl multiply in the earth</seg>.'</seg> <seg type="verse" xml:id="ch01v23">23</seg><measure unit="days" n="5">And there was evening and there was morning, a fifth day</measure>.</ab>
+        
+        <ab type="p"><seg type="verse" xml:id="ch01v24">24</seg>And God said: <seg ana="#commandment">'Let the earth bring forth the living creature after its kind, <rs type="animal">cattle</rs>, and creeping thing, and <rs type="animal">beast</rs> of the earth after its kind.'</seg> And <seg ana="#obedience">it was so</seg>. <seg type="verse" xml:id="ch01v25">25</seg><seg ana="#repetition">And <seg ana="#creation">God made</seg> the <rs type="animal">beast</rs> of the earth after its kind, and the <rs type="animal">cattle</rs> after their kind, and every thing that creepeth upon the ground after its kind</seg>; and <seg ana="#good">God saw that it was good</seg>. <seg type="verse" xml:id="ch01v26">26</seg>And God said: <seg ana="#declaration">'<seg ana="#creation">Let us make <rs type="human">man</rs> in our image, after our likeness</seg>; and let them have dominion over the <rs type="animal">fish</rs> of the sea, and over the <rs type="animal">fowl</rs> of the air, and over the <rs type="animal">cattle</rs>, and over all the earth, and over every creeping thing that creepeth upon the earth.'</seg> <seg type="verse" xml:id="ch01v27">27</seg><seg ana="#repetition">And <seg ana="#creation">God created man</seg> in His own image, in the image of God created He him; <rs type="humanbeing">male</rs> and <rs type="humanbeing">female</rs> created He them</seg>. <seg type="verse" xml:id="ch01v28">28</seg>And <seg ana="#holy">God blessed them</seg>; and God said unto them: <seg ana="#commandment">'<seg ana="#toledot">Be fruitful, and multiply, and replenish the earth, and subdue it; and <seg ana="#repetition">have dominion over the <rs type="animal">fish</rs> of the sea, and over the <rs type="animal">fowl</rs> of the air, and over every living thing that creepeth upon the earth</seg></seg>.'</seg> <seg type="verse" xml:id="ch01v29">29</seg>And God said: <seg ana="#declaration">'Behold, I have given you <seg ana="#food">every herb yielding <seg ana="#symbol">seed</seg>, which is upon the face of all the earth, and every tree, in which is the fruit of a tree yielding <seg ana="#symbol">seed</seg>--to you it shall be for food <seg type="verse" xml:id="ch01v30">30</seg>and to <seg ana="#repetition">every <rs type="animal">beast</rs> of the earth, and to every <rs type="animal">fowl</rs> of the air, and to every thing that creepeth upon the earth</seg>, wherein there is a living soul, [I have given] every green herb for food</seg>.'</seg> <seg ana="#obedience">And it was so</seg>. <seg type="verse" xml:id="ch01v31">31</seg>And <seg ana="#good">God saw every thing that He had made, and, behold, it was very good</seg>. <measure unit="days" n="6">And there was evening and there was morning, the sixth day</measure>.</ab></div>
+    
+    <div type="chapter" xml:id="ch2"><head>Chapter 2</head>
+        
+        <ab type="p"><seg type="verse" xml:id="ch02v1">1</seg>And the heaven and the earth were finished, and all the <seg ana="#personification">host of them</seg>. <seg type="verse" xml:id="ch02v2">2</seg>And <date when-custom="0000-00-07">on the seventh day</date> God finished His work which <seg ana="#creation">He had made</seg>; <seg ana="#repetition">and He rested <date when-custom="0000-00-07">on the seventh day</date> from all His work which <seg ana="#creation">He had made</seg></seg>. <seg type="verse" xml:id="ch02v3">3</seg>And <seg ana="#holy">God blessed the <date when-custom="0000-00-07">seventh day</date>, and hallowed it</seg>; because that in it <seg ana="#repetition">He rested from all His work which <seg ana="#creation">God in creating had made</seg></seg>.</ab>
+        
+        <ab type="p"><seg type="verse" xml:id="ch02v4">4</seg><seg ana="#toledot">These are the generations of the <placeName ref="#l_heaven">heaven</placeName> and of the <placeName ref="#l_earth">earth</placeName> when they were <seg ana="#creation">created</seg></seg>, in the day that the <persName ref="#yhwh" type="lordgod">LORD God</persName> <seg ana="#creation">made earth and heaven</seg>.</ab>
+        
+        <ab type="p"><seg type="verse" xml:id="ch02v5">5</seg>No shrub of the field was yet in the earth, and no herb of the field had yet sprung up; for the <persName ref="#yhwh">LORD God</persName> had not caused it to <seg ana="#water">rain upon the earth</seg>, and <seg ana="#farmer">there was not a man to till the ground</seg> <seg type="verse" xml:id="ch02v6">6</seg>but <seg ana="#water">there went up a mist from the earth, and watered the whole <seg ana="#personification">face of the ground</seg></seg>. <seg type="verse" xml:id="ch02v7">7</seg>Then <seg ana="#creation">the LORD God formed man of the dust of the ground, and breathed into his nostrils the <seg ana="#symbol">breath of life</seg></seg>; and man became a living soul. <seg type="verse" xml:id="ch02v8">8</seg>And the LORD God <seg ana="#farmer">planted</seg> a garden eastward, in <placeName ref="#l_eden">Eden</placeName>; and there He put the man whom He had formed. <seg type="verse" xml:id="ch02v9">9</seg>And <seg ana="#creation">out of the ground made the LORD God <seg ana="#food">to grow every <seg ana="#good">tree that is pleasant to the sight, and good for food</seg></seg>; the tree of life also in the midst of the garden, and the tree of the knowledge of <seg ana="#good">good</seg> and <seg ana="#evil">evil</seg></seg>. <seg type="verse" xml:id="ch02v10">10</seg>And <seg ana="#water">a river went out of <placeName ref="#l_eden">Eden</placeName> to water the garden</seg>; and from thence <seg ana="#separation">it was parted, and became four heads</seg>. <seg type="verse" xml:id="ch02v11">11</seg>The name of the first is <placeName ref="#l_pishon">Pishon</placeName>; that is it which compasseth the whole land of <placeName ref="#l_havilah">Havilah</placeName>, where there is gold <seg type="verse" xml:id="ch02v12">12</seg>and <seg ana="#good">the gold of that land is good</seg>; there is bdellium and the onyx stone. <seg type="verse" xml:id="ch02v13">13</seg>And the name of the second river is <placeName ref="#l_gihon">Gihon</placeName>; the same is it that compasseth the whole <placeName ref="#l_kush">land of Cush</placeName>. <seg type="verse" xml:id="ch02v14">14</seg>And the name of the third river is <placeName ref="#l_tigris">Tigris</placeName>; that is it which goeth toward the east of <placeName ref="#l_ashur">Asshur</placeName>. And the fourth river is the <placeName ref="#l_euphrates">Euphrates</placeName>. <seg type="verse" xml:id="ch02v15">15</seg>And <seg ana="#commandment">the LORD God took the man, and put him into <placeName ref="#l_eden">the garden of Eden</placeName> to dress it and to keep it</seg>. <seg type="verse" xml:id="ch02v16">16</seg>And the LORD <seg ana="#commandment">God commanded the man, saying: '<seg ana="#food">Of every tree of the garden thou mayest freely eat</seg> <seg type="verse" xml:id="ch02v17">17</seg>but of the tree of the knowledge of <seg ana="#good">good</seg> and <seg ana="#evil">evil</seg>, thou shalt not eat of it; for in the day that thou eatest thereof thou <seg ana="#bad">shalt surely die</seg>.'</seg></ab>
+        
+        <ab type="p"><seg type="verse" xml:id="ch02v18">18</seg>And the LORD God said: '<seg ana="#bad">It is not good that the man should be alone</seg>; I will make him a help meet for him.' <seg type="verse" xml:id="ch02v19">19</seg>And out of the ground <seg ana="#creation">the LORD God formed every <rs type="animal">beast</rs> of the field, and every <rs type="animal">fowl</rs> of the air</seg>; and brought them unto the man to see what he would call them; and whatsoever the man would call every living creature, that was to be the name thereof. <seg type="verse" xml:id="ch02v20">20</seg><seg ana="#independence">And the man gave names to all <rs type="animal">cattle</rs>, and to the <rs type="animal">fowl</rs> of the air, and to every <rs type="animal">beast</rs> of the field</seg>; but for <persName ref="#adam">Adam</persName> there was not found a help meet for him. <seg type="verse" xml:id="ch02v21">21</seg>And the LORD God caused a deep sleep to fall upon the man, and he slept; and He took one of his ribs, and closed up the place with flesh instead thereof. <seg type="verse" xml:id="ch02v22">22</seg><seg ana="#separation">And the rib, which the LORD God had taken from the man, <seg ana="#creation">made He a <persName ref="#eve">woman</persName></seg></seg>, and brought her unto the man. <seg type="verse" xml:id="ch02v23">23</seg><seg ana="#independence">And the man said: 'This is now bone of my bones, and flesh of my flesh; she shall be called Woman, because she was taken out of Man.'</seg> <seg type="verse" xml:id="ch02v24">24</seg>Therefore shall a <seg ana="#separation">man leave his father and his mother, and shall cleave unto his wife</seg>, and <seg ana="#combination">they shall be one flesh</seg>. <seg type="verse" xml:id="ch02v25">25</seg>And they were both naked, the man and his wife, and were not ashamed.</ab></div>
+    
+    <div type="chapter" xml:id="ch3"><head>Chapter 3</head>
+        
+        <ab type="p"><seg type="verse" xml:id="ch03v1">1</seg>Now the <persName ref="#serpent">serpent</persName> was more <seg ana="#ambiguous">subtle</seg> than <seg ana="#creation">any <rs type="animal">beast</rs> of the field which the LORD God had made</seg>. And he said unto the <persName ref="#eve">woman</persName>: 'Yea, hath God said: Ye shall not eat of any tree of <placeName ref="#l_eden">the garden</placeName>?' <seg type="verse" xml:id="ch03v2">2</seg>And the woman said unto the <persName ref="#serpent">serpent</persName>: 'Of the <seg ana="#symbol">fruit of the trees of <placeName ref="#l_eden">the garden</placeName></seg> we may eat <seg type="verse" xml:id="ch03v3">3</seg>but of the <seg ana="#symbol">fruit</seg> of the <placeName ref="#l_tree_of_knowledge">tree</placeName> which is in the midst of <placeName ref="#l_eden">the garden</placeName>, God hath said: <seg ana="#commandment">'Ye shall not eat of it, neither shall ye touch it, <seg ana="#consequence">lest ye die</seg>.'</seg> <seg type="verse" xml:id="ch03v4">4</seg>And the <persName ref="#serpent">serpent</persName> said unto the <persName ref="#eve">woman</persName>: 'Ye shall not surely die <seg type="verse" xml:id="ch03v5">5</seg>for God doth know that in the day ye eat thereof, then your eyes shall be opened, and ye shall be as God, knowing <seg ana="#good">good</seg> and <seg ana="#evil">evil</seg>.' <seg type="verse" xml:id="ch03v6">6</seg>And when <seg ana="#food"><seg ana="#good">the <persName ref="#eve">woman</persName> saw that the <placeName ref="#l_tree_of_knowledge">tree</placeName> was good for food</seg></seg>, and that it was a delight to the eyes, and that the <placeName ref="#l_tree_of_knowledge">tree</placeName> was to be desired to make one wise, <seg ana="#disobedience">she took of the fruit thereof, and did eat; and she gave also unto her <persName ref="#adam">husband</persName> with her, and he did eat</seg>. <seg type="verse" xml:id="ch03v7">7</seg><seg ana="#consequence">And the eyes of them both were opened, and they knew that they were naked</seg>; and <seg ana="#combination">they sewed fig-leaves together</seg>, and made themselves girdles. <seg type="verse" xml:id="ch03v8">8</seg>And they heard the voice of the LORD God walking in the <placeName ref="#l_eden">garden</placeName> toward the cool of the day; and <seg ana="#separation">the man and his wife hid themselves from the presence of the LORD God</seg> amongst the trees of the <placeName ref="#l_eden">garden</placeName>. <seg type="verse" xml:id="ch03v9">9</seg>And the LORD God called unto the <persName ref="#adam">man</persName>, and said unto him: 'Where art thou?' <seg type="verse" xml:id="ch03v10">10</seg>And he said: 'I heard Thy voice in the garden, and I was afraid, because I was naked; and I hid myself.' <seg type="verse" xml:id="ch03v11">11</seg>And He said: 'Who told thee that thou wast naked? Hast thou eaten of <placeName ref="#l_tree_of_knowledge">the tree, whereof I commanded thee that thou shouldest not eat</placeName>?' <seg type="verse" xml:id="ch03v12">12</seg>And the <persName ref="#adam">man</persName> said: 'The <persName ref="#eve">woman</persName> whom Thou gavest to be with me, she gave me of the <placeName ref="#l_tree_of_knowledge">tree</placeName>, and I did eat.' <seg type="verse" xml:id="ch03v13">13</seg>And the LORD God said unto the <persName ref="#eve">woman</persName>: 'What is this thou hast done?' And the <persName ref="#eve">woman</persName> said: 'The <persName ref="#serpent">serpent</persName> beguiled me, and I did eat.' <seg type="verse" xml:id="ch03v14">14</seg>And the LORD God said unto the <persName ref="#serpent">serpent</persName>: '<seg ana="#punishment">'Because thou hast done this, cursed art thou from among all <rs type="animal">cattle</rs>, and from among all <rs type="animal">beasts</rs> of the field; upon thy belly shalt thou go, and dust shalt thou eat all the days of thy life. <seg type="verse" xml:id="ch03v15">15</seg><seg ana="#separation">And I will put enmity between thee <seg ana="#toledot">and the <persName ref="#eve">woman</persName>, and between thy <seg ana="#symbol">seed</seg> and her <seg ana="#symbol">seed</seg></seg></seg>; they shall bruise thy head, and thou shalt bruise their heel</seg>.'</ab>
+        
+        <ab type="p"><seg type="verse" xml:id="ch03v16">16</seg>Unto the woman He said: <seg ana="#punishment">'I will greatly multiply thy pain and thy travail; in pain thou shalt bring forth children; and thy desire shall be to thy husband, and he shall rule over thee.'</seg></ab>
+        
+        <ab type="p"><seg type="verse" xml:id="ch03v17">17</seg>And unto <persName ref="#adam">Adam</persName> He said: <seg ana="#punishment">'Because thou hast hearkened unto the voice of thy wife, and hast eaten of the <placeName ref="#l_tree_of_knowledge">tree</placeName>, of which I commanded thee, saying: Thou shalt not eat of it; cursed is the ground for thy sake; <seg ana="#farmer">in toil shalt thou eat of it</seg> all the days of thy life. <seg type="verse" xml:id="ch03v18">18</seg><seg ana="#consequence">Thorns also and thistles shall it bring forth to thee; and <seg ana="#food">thou shalt eat the herb of the field</seg></seg> <seg type="verse" xml:id="ch03v19">19</seg>In the sweat of thy face <seg ana="#food">shalt thou eat bread</seg>, till thou return unto the ground; for out of it wast thou taken; for dust thou art, and unto dust shalt thou return.'</seg> <seg type="verse" xml:id="ch03v20">20</seg>And the man called his wife's name <persName ref="#eve">Eve</persName>; because she was the mother of all living. <seg type="verse" xml:id="ch03v21">21</seg><seg ana="#consequence">And the LORD God <seg ana="#creation">made for <persName ref="#adam">Adam</persName> and for his wife garments of skins</seg>, and clothed them</seg>.</ab>
+        
+    	<ab type="p"><seg type="verse" xml:id="ch03v22">22</seg>And the LORD God said: <seg ana="#declaration">'Behold, the man is become as one of us, to know <seg ana="#good">good</seg> and <seg ana="#evil">evil</seg>; and now, lest he put forth his hand, and take also of the <placeName ref="#l_tree_of_life">tree of life</placeName>, and eat, and live for ever.'</seg> <seg type="verse" xml:id="ch03v23">23</seg>Therefore <seg ana="#consequence"><seg ana="#separation">the LORD God sent him forth from the <placeName ref="#l_eden">garden of Eden</placeName>, to <seg ana="#farmer">till the ground from whence he was taken</seg></seg></seg>. <seg type="verse" xml:id="ch03v24">24</seg><seg ana="#consequence"><seg ana="#repetition">So <seg ana="#separation">He drove out the man</seg>; and He placed at the east of <placeName ref="#l_eden">the garden of Eden</placeName></seg> the <seg ana="#symbol">cherubim</seg>, and the flaming sword which turned every way, to keep the way to <placeName ref="#l_tree_of_life">the tree of life</placeName></seg>.</ab></div>
+    
+    <div type="chapter" xml:id="ch4"><head>Chapter 4</head>
+        
+    	<ab type="p"><seg type="verse" xml:id="ch04v1">1</seg><seg ana="#creation">And the man knew <persName ref="#eve">Eve</persName> his wife; and <seg ana="#toledot">she conceived and bore <persName ref="#cain">Cain</persName>, and said: 'I have gotten a man with the help of the LORD.' <seg type="verse" xml:id="ch04v2">2</seg>And again she bore his brother <persName ref="#abel">Abel</persName>.</seg></seg> And <seg ana="#shepherd"><persName ref="#abel">Abel</persName> was a keeper of sheep</seg>, but <seg ana="#farmer"><persName ref="#cain">Cain</persName> was a tiller of the ground</seg>. <seg type="verse" xml:id="ch04v3">3</seg>And in process of time it came to pass, that <seg ana="#farmer"><seg ana="#obedience"><persName ref="#cain">Cain</persName> brought of <seg ana="#food">the fruit of the ground</seg> an offering unto the LORD</seg></seg>. <seg type="verse" xml:id="ch04v4">4</seg>And <seg ana="#shepherd"><persName ref="#abel">Abel</persName>, he also brought of <seg ana="#food">the firstlings of his flock and of the fat thereof</seg>. And the LORD <seg ana="#reward">had respect unto <persName ref="#abel">Abel</persName> and to his offering</seg></seg> <seg type="verse" xml:id="ch04v5">5</seg>but <seg ana="#punishment">unto <persName ref="#cain">Cain</persName> and to his offering He had not respect</seg>. And <seg ana="#bad"><persName ref="#cain">Cain</persName> was very wroth, and his countenance fell</seg>. <seg type="verse" xml:id="ch04v6">6</seg>And the LORD said unto <persName ref="#cain">Cain</persName>: 'Why art thou wroth? and why is thy countenance fallen? <seg type="verse" xml:id="ch04v7">7</seg><seg ana="#declaration">If thou doest well, shall it not be lifted up? and if thou doest not well, sin coucheth at the door; and unto thee is its desire, but thou mayest rule over it.'</seg> <seg type="verse" xml:id="ch04v8">8</seg>And <persName ref="#cain">Cain</persName> spoke unto <persName ref="#abel">Abel</persName> his brother. <seg ana="#consequence">And it came to pass, when they were in the field, that <seg ana="#independence"><seg ana="#bad"><persName ref="#cain">Cain</persName> rose up against <persName ref="#abel">Abel</persName> his brother, and slew him</seg></seg></seg>.</ab>
+        
+        <ab type="p"><seg type="verse" xml:id="ch04v9">9</seg>And the LORD said unto <persName ref="#cain">Cain</persName>: 'Where is <persName ref="#abel">Abel</persName> thy brother?' And he said: 'I know not; am I my brother's keeper?' <seg type="verse" xml:id="ch04v10">10</seg>And He said: 'What hast thou done? <seg ana="#hyperbole">the voice of thy brother's blood crieth unto Me from the ground</seg>. <seg type="verse" xml:id="ch04v11">11</seg><seg ana="#punishment">And now cursed art thou from the ground, which hath <seg ana="#personification">opened her mouth to receive thy brother's blood from thy hand</seg>. <seg type="verse" xml:id="ch04v12">12</seg><seg ana="#consequence">When thou tillest the ground, it shall not henceforth <seg ana="#personification">yield unto thee her strength</seg>; a fugitive and a wanderer shalt thou be in the earth.</seg></seg>' <seg type="verse" xml:id="ch04v13">13</seg>And <persName ref="#cain">Cain</persName> said unto the LORD: 'My punishment is greater than I can bear. <seg type="verse" xml:id="ch04v14">14</seg>Behold, Thou hast driven me out this day from the face of the land; and from Thy face shall I be hid; and <seg ana="#repetition">I shall be a fugitive and a wanderer in the earth</seg>; and it will come to pass, that whosoever findeth me will slay me.' <seg type="verse" xml:id="ch04v15">15</seg>And the LORD said unto him: '<seg ana="#declaration">Therefore whosoever slayeth <persName ref="#cain">Cain</persName>, vengeance shall be taken on him <seg ana="#seven">sevenfold</seg></seg>.'. And the LORD set a sign for <persName ref="#cain">Cain</persName>, lest any finding him should smite him</ab>
+        
+        <ab type="p"><seg type="verse" xml:id="ch04v16">16</seg><seg ana="#separation">And <persName ref="#cain">Cain</persName> went out from the presence of the LORD</seg>, and dwelt in <placeName ref="#l_nod">the land of Nod</placeName>, on the east of <placeName ref="#l_eden">Eden</placeName>. <seg type="verse" xml:id="ch04v17">17</seg><seg ana="#toledot">And <persName ref="#cain">Cain</persName> knew his wife; and she conceived, and bore <persName ref="#enoch">Enoch</persName>; and <placeName ref="#l_enoch">he builded a city, and called the name of the city after the name of his son <persName ref="#enoch">Enoch</persName></placeName>. <seg type="verse" xml:id="ch04v18">18</seg>And unto <persName ref="#enoch">Enoch</persName> was born <persName ref="#irad">Irad</persName>; and <persName ref="#irad">Irad</persName> begot <persName ref="#mehujael">Mehujael</persName>; and <persName ref="#mehujael">Mehujael</persName> begot <persName ref="#methushael">Methushael</persName>; and <persName ref="#methushael">Methushael</persName> begot <persName ref="#lamech">Lamech</persName>. <seg type="verse" xml:id="ch04v19">19</seg>And <persName ref="#lamech">Lamech</persName> took unto him two wives; the name of one was <persName ref="#adah">Adah</persName>, and the name of the other <persName ref="#zillah">Zillah</persName>. <seg type="verse" xml:id="ch04v20">20</seg>And <persName ref="#adah">Adah</persName> bore <persName ref="#jabal">Jabal</persName>; he was the father of <seg ana="#shepherd">such as dwell in tents and have <rs type="animal">cattle</rs></seg>. <seg type="verse" xml:id="ch04v21">21</seg>And his brother's name was Jubal; he was the father of all such as handle the harp and pipe. <seg type="verse" xml:id="ch04v22">22</seg>And <persName ref="#zillah">Zillah</persName>, she also bore <persName ref="#tubalcain">Tubal-cain</persName>, the forger of every cutting instrument of brass and iron; and the sister of <persName ref="#tubalcain">Tubal-cain</persName> was <persName ref="#naamah">Naamah</persName>.</seg> <seg type="verse" xml:id="ch04v23">23</seg>And <persName ref="#lamech">Lamech</persName> said unto his wives:
+            
+            <lg><l><persName ref="#adah">Adah</persName> and <persName ref="#zillah">Zillah</persName>, hear my voice;</l>
+                <l>Ye wives of <persName ref="#lamech">Lamech</persName>, hearken unto my speech;</l>
+                <l><seg ana="#consequence">For <seg ana="#bad">I have slain a man</seg> for wounding me</seg>,</l>
+                <l>And a young man for bruising me;</l>
+                <l><seg type="verse" xml:id="ch04v24">24</seg>If <persName ref="#cain">Cain</persName> shall be avenged <seg ana="#seven">sevenfold</seg>,</l>
+                <l><seg ana="#consequence">Truly <persName ref="#lamech">Lamech</persName> <seg ana="#seven">seventy and sevenfold</seg></seg>.</l></lg></ab>
+        
+        <ab type="p"><seg type="verse" xml:id="ch04v25">25</seg>And <seg ana="#toledot"><persName ref="#adam">Adam</persName> knew his wife again; and she bore a son, and called his name <persName ref="#seth">Seth</persName></seg>: 'for God hath appointed me another <seg ana="#symbol">seed</seg> instead of <persName ref="#abel">Abel</persName>; for <persName ref="#cain">Cain</persName> slew him.' <seg type="verse" xml:id="ch04v26">26</seg><seg ana="#toledot">And to <persName ref="#seth">Seth</persName>, to him also there was born a son; and he called his name <persName ref="#enosh">Enosh</persName></seg>; then began men to call upon the name of the LORD.</ab></div>
+    
+    <div type="chapter" xml:id="ch5"><head>Chapter 5</head>
+        
+        <ab type="p"><seg type="verse" xml:id="ch05v1">1</seg><seg ana="#toledot"><seg ana="#repetition">This is the book of the generations of <persName ref="#adam">Adam</persName>. <seg ana="#creation">In the day that God created <persName ref="#adam">man</persName>, in the likeness of God made He him <seg type="verse" xml:id="ch05v2">2</seg><persName ref="#adam">male</persName> and <persName ref="#eve">female</persName> created He them, <seg ana="#holy">and blessed them</seg>, and called their name <persName ref="#adam">Adam</persName>, in the day when they were created.</seg> <seg type="verse" xml:id="ch05v3">3</seg><seg ana="#repetition">And <persName ref="#adam">Adam</persName> lived <date when="0130">a hundred and thirty years</date>, and <seg ana="#toledot">begot a son in his own likeness</seg>, after his image; and called his name <persName ref="#seth">Seth</persName></seg>. <seg type="verse" xml:id="ch05v4">4</seg>And the days of <persName ref="#adam">Adam</persName> after he begot <persName ref="#seth">Seth</persName> were eight hundred years; and he begot sons and daughters.</seg>  <seg type="verse" xml:id="ch05v5">5</seg>And all the days that <persName ref="#adam">Adam</persName> lived were <measure unit="years" n="930">nine hundred and thirty years</measure>; and he died.</seg></ab>
+        
+        <ab type="p"><seg type="verse" xml:id="ch05v6">6</seg><seg ana="#toledot">And <persName ref="#seth">Seth</persName> lived <measure unit="years" n="105">a hundred and five years</measure>, and begot <persName ref="#enosh">Enosh</persName>. <seg type="verse" xml:id="ch05v7">7</seg>And <persName ref="#seth">Seth</persName> lived after he begot <persName ref="#enosh">Enosh</persName> eight hundred and <seg ana="#seven">seven</seg> years, and begot sons and daughters. <seg type="verse" xml:id="ch05v8">8</seg>And all the days of <persName ref="#seth">Seth</persName> were <measure unit="years" n="912">nine hundred and twelve years</measure>; and he died.</seg></ab>
+        
+        <ab type="p"><seg type="verse" xml:id="ch05v9">9</seg>And <seg ana="#toledot"><persName ref="#enosh">Enosh</persName> <measure unit="years" n="90">lived ninety years</measure>, and <seg ana="#toledot">begot <persName ref="#kenan">Kenan</persName></seg>. <seg type="verse" xml:id="ch05v10">10</seg>And <persName ref="#enosh">Enosh</persName> lived after he begot <persName ref="#kenan">Kenan</persName> eight hundred and fifteen years, and begot sons and daughters. <seg type="verse" xml:id="ch05v11">11</seg>And all the days of <persName ref="#enosh">Enosh</persName> were <measure unit="years" n="905">nine hundred and five years</measure>; and he died</seg>.</ab>
+        
+        <ab type="p"><seg type="verse" xml:id="ch05v12">12</seg><seg ana="#toledot">And <persName ref="#kenan">Kenan</persName> lived <measure unit="years" n="70"><seg ana="#seven">seventy</seg> years</measure>, and begot <persName ref="#mahalalel">Mahalalel</persName>. <seg type="verse" xml:id="ch05v13">13</seg>And <persName ref="#kenan">Kenan</persName> lived after he begot <persName ref="#mahalalel">Mahalalel</persName> eight hundred and forty years, and begot sons and daughters. <seg type="verse" xml:id="ch05v14">14</seg>And all the days of <persName ref="#kenan">Kenan</persName> were <measure unit="years" n="910">nine hundred and ten years</measure>; and he died.</seg></ab>
+        
+        <ab type="p"><seg type="verse" xml:id="ch05v15">15</seg><seg ana="#toledot">And <persName ref="#mahalalel">Mahalalel</persName> lived <measure unit="years" n="65">sixty and five years</measure>, and begot <persName ref="#jared">Jared</persName>. <seg type="verse" xml:id="ch05v16">16</seg>And <persName ref="#mahalalel">Mahalalel</persName> lived after he begot <persName ref="#jared">Jared</persName> eight hundred and thirty years, and begot sons and daughters. <seg type="verse" xml:id="ch05v17">17</seg>And all the days of <persName ref="#mahalalel">Mahalalel</persName> were <measure unit="years" n="895">eight hundred ninety and five years</measure>; and he died.</seg></ab>
+        
+        <ab type="p"><seg type="verse" xml:id="ch05v18">18</seg><seg ana="#toledot">And <persName ref="#jared">Jared</persName> lived <measure unit="years" n="162">a hundred sixty and two years</measure>, and begot <persName ref="#enoch">Enoch</persName>. <seg type="verse" xml:id="ch05v19">19</seg>And <persName ref="#jared">Jared</persName> lived after he begot <persName ref="#enoch">Enoch</persName> eight hundred years, and begot sons and daughters. <seg type="verse" xml:id="ch05v20">20</seg>And all the days of <persName ref="#jared">Jared</persName> were <measure unit="years" n="962">nine hundred sixty and two years</measure>; and he died.</seg></ab>
+        
+        <ab type="p"><seg type="verse" xml:id="ch05v21">21</seg><seg ana="#toledot"><measure unit="years" n="65">And <persName ref="#enoch">Enoch</persName> lived sixty and five years</measure>, and begot <persName ref="#methuselah">Methuselah</persName>. <seg type="verse" xml:id="ch05v22">22</seg>And <persName ref="#enoch">Enoch</persName> walked with God after he begot <persName ref="#methuselah">Methuselah</persName> three hundred years, and begot sons and daughters. <seg type="verse" xml:id="ch05v23">23</seg>And all the days of <persName ref="#enoch">Enoch</persName> were <measure unit="years" n="365">three hundred sixty and five years</measure>. <seg type="verse" xml:id="ch05v24">24</seg>And <persName ref="#enoch">Enoch</persName> walked with God, and he was not; for God took him.</seg></ab>
+        
+        <ab type="p"><seg type="verse" xml:id="ch05v25">25</seg><seg ana="#toledot">And <persName ref="#methuselah">Methuselah</persName> lived <measure unit="years" n="187">a hundred eighty and seven years</measure>, and begot <persName ref="#lamech">Lamech</persName>. <seg type="verse" xml:id="ch05v26">26</seg>And <persName ref="#methuselah">Methuselah</persName> lived after he begot <persName ref="#lamech">Lamech</persName> <measure unit="years" n="782">seven hundred eighty and two years</measure>, and begot sons and daughters. <seg type="verse" xml:id="ch05v27">27</seg>And all the days of <persName ref="#methuselah">Methuselah</persName> were <measure unit="years" n="969">nine hundred sixty and nine years</measure>; and he died.</seg></ab>
+        
+        <ab type="p"><seg type="verse" xml:id="ch05v28">28</seg><seg ana="#toledot">And <persName ref="#lamech">Lamech</persName> lived <measure unit="years" n="182">a hundred eighty and two years</measure>, and begot a son. <seg type="verse" xml:id="ch05v29">29</seg>And he called his name <persName ref="#noah">Noah</persName>, saying: <seg ana="#consequence">'This same shall comfort us in our work and in the toil of our hands, which cometh from the ground which the LORD hath cursed.'</seg> <seg type="verse" xml:id="ch05v30">30</seg>And <persName ref="#lamech">Lamech</persName> lived after he begot <persName ref="#noah">Noah</persName> five hundred ninety and five years, and begot sons and daughters. <seg type="verse" xml:id="ch05v31">31</seg>And all the days of <persName ref="#lamech">Lamech</persName> were <measure unit="years" n="777"><seg ana="#seven">seven hundred seventy and seven</seg> years</measure>; and he died.</seg></ab>
+        
+        <ab type="p"><seg type="verse" xml:id="ch05v32">32</seg><seg ana="#toledot">And <persName ref="#noah">Noah</persName> was <measure unit="years" n="500">five hundred years old</measure>; and <persName ref="#noah">Noah</persName> begot <persName ref="#shem">Shem</persName>, <persName ref="#ham">Ham</persName>, and <persName ref="#japheth">Japheth</persName>.</seg></ab></div>
+    
+    <div type="chapter" xml:id="ch6"><head>Chapter 6</head>
+        
+        <ab type="p"><seg type="verse" xml:id="ch06v1">1</seg>And it came to pass, when <seg ana="#toledot">men began to multiply on the <seg ana="#personification">face of the earth</seg></seg>, and daughters were born unto them <seg type="verse" xml:id="ch06v2">2</seg>that the sons of God saw <seg ana="#good">the daughters of men that they were fair</seg>; and <seg ana="#bad">they took them wives, whomsoever they chose</seg>. <seg type="verse" xml:id="ch06v3">3</seg>And the LORD said: <seg ana="#declaration">'<seg ana="#separation">My spirit shall not abide in man for ever</seg>, for that he also is flesh; therefore <seg ana="#punishment">shall his days be a hundred and twenty years</seg>.'</seg> <seg type="verse" xml:id="ch06v4">4</seg><seg ana="#combination">The <persName ref="#nephilim">Nephilim</persName> were in the earth in those days, and also after that, when the sons of God came in unto the daughters of men, and they bore children to them; the same were the mighty men that were of old, the men of renown.</seg></ab>
+        
+        <ab type="p"><seg type="verse" xml:id="ch06v5">5</seg><seg ana="#evil">And the LORD saw that the wickedness of man was great in the earth, and that every imagination of the <seg ana="#personification">thoughts of his heart</seg> was only evil continually</seg>. <seg type="verse" xml:id="ch06v6">6</seg><seg ana="#consequence">And it repented the LORD that He had made man on the earth, and it grieved Him at His heart.</seg> <seg type="verse" xml:id="ch06v7">7</seg><seg ana="#consequence">And the LORD said: <seg ana="#punishment">'I will blot out <persName ref="#adam">man</persName> whom I have created from the face of the earth; both <persName ref="#adam">man</persName>, and <rs type="animal">beast</rs>, and <rs type="animal">creeping thing</rs>, and <rs type="animal">fowl</rs> of the air; for it repenteth Me that I have made them.'</seg></seg> <seg type="verse" xml:id="ch06v8">8</seg><seg ana="#holy">But <persName ref="#noah">Noah</persName> found grace in the eyes of the LORD.</seg></ab>
+        
+        <ab type="p"><seg ana="#repetition"><seg type="verse" xml:id="ch06v9">9</seg><seg ana="#toledot">These are the generations of <persName ref="#noah">Noah</persName></seg>. <seg ana="#holy"><persName ref="#noah">Noah</persName> was in his generations a man righteous and wholehearted; <persName ref="#noah">Noah</persName> walked with God.</seg> <seg type="verse" xml:id="ch06v10">10</seg>And <seg ana="#repetition"><seg ana="#toledot"><persName ref="#noah">Noah</persName> begot three sons, <persName ref="#shem">Shem</persName>, <persName ref="#ham">Ham</persName>, and <persName ref="#japheth">Japheth</persName></seg></seg>. <seg type="verse" xml:id="ch06v11">11</seg><seg ana="#bad">And the earth was corrupt before God, and the earth was filled with violence. <seg type="verse" xml:id="ch06v12">12</seg>And God saw the earth, and, behold, it was corrupt; for all flesh had corrupted their way upon the earth.</seg></seg></ab>
+        
+        <ab type="p"><seg type="verse" xml:id="ch06v13">13</seg><seg ana="#consequence">And God said unto <persName ref="#noah">Noah</persName>: '<seg ana="#declaration">The end of all flesh is come before Me; for the earth is filled with violence through them; and, behold, <seg ana="#punishment">I will destroy them with the earth</seg>.</seg>'</seg> <seg type="verse" xml:id="ch06v14">14</seg><seg ana="#commandment">Make thee an ark of gopher wood; with rooms shalt thou make the ark, and shalt pitch it within and without with pitch. <seg type="verse" xml:id="ch06v15">15</seg>And this is how thou shalt make it: the length of the ark three hundred cubits, the breadth of it fifty cubits, and the height of it thirty cubits. <seg type="verse" xml:id="ch06v16">16</seg>A light shalt thou make to the ark, and to a cubit shalt thou finish it upward; and the door of the ark shalt thou set in the side thereof; with lower, second, and third stories shalt thou make it.</seg> <seg type="verse" xml:id="ch06v17">17</seg><seg ana="#punishment">And I, behold, I do bring the <seg ana="#water">flood of waters</seg> upon the earth, to destroy all flesh, wherein is the <seg ana="#symbol">breath of life</seg>, from under heaven; every thing that is in the earth shall perish</seg>. <seg type="verse" xml:id="ch06v18">18</seg>But <seg ana="#covenant">I will establish My covenant with thee; and thou shalt come into the ark, thou, and thy sons, and thy wife, and thy sons' wives with thee</seg>. <seg type="verse" xml:id="ch06v19">19</seg><seg ana="#commandment">And of every living thing of all flesh, two of every sort shalt thou bring into the ark, to keep them alive with thee; they shall be male and female. <seg type="verse" xml:id="ch06v20">20</seg><seg ana="#repetition">Of the <rs type="animal">fowl</rs> after their kind, and of the <rs type="animal">cattle</rs> after their kind, of every <rs type="animal">creeping thing</rs> of the ground after its kind</seg>, two of every sort shall come unto thee, to keep them alive. <seg type="verse" xml:id="ch06v21">21</seg>And take thou unto thee of all food that is eaten, and gather it to thee; and it shall be for food for thee, and for them.</seg>' <seg type="verse" xml:id="ch06v22">22</seg><seg ana="#obedience">Thus did <persName ref="#noah">Noah</persName>; according to all that God commanded him, so did he.</seg></ab></div>
+    
+    <div type="chapter" xml:id="ch7"><head>Chapter 7</head>
+        
+        <ab type="p"><seg type="verse" xml:id="ch07v1">1</seg>And the LORD said unto <persName ref="#noah">Noah</persName>: <seg ana="#commandment">'Come thou and all thy house into the ark; for <seg ana="#good">thee have I seen righteous before Me in this generation</seg>. <seg type="verse" xml:id="ch07v2">2</seg><seg ana="#repetition">Of every clean <rs type="animal">beast</rs> thou shalt take to thee <seg ana="#seven">seven and seven</seg>, each with his mate; and of the <rs type="animal">beasts</rs> that are not clean two [and two], each with his mate <seg type="verse" xml:id="ch07v3">3</seg>of the <rs type="animal">fowl</rs> also of the air, <seg ana="#seven">seven and seven</seg>, male and female; <seg ana="#toledot">to keep <seg ana="#symbol">seed</seg> alive upon the face of all the earth.</seg></seg></seg> <seg type="verse" xml:id="ch07v4">4</seg>For yet <seg ana="#seven">seven</seg> days, and I will cause it to <seg ana="#water">rain upon the earth</seg> <measure unit="days" n="40"><seg ana="#forty">forty days and forty nights</seg></measure>; and every living substance that I have made will I blot out from off the face of the earth.' <seg type="verse" xml:id="ch07v5">5</seg><seg ana="#obedience">And <persName ref="#noah">Noah</persName> did according unto all that the LORD commanded him.</seg></ab>
+        
+        <ab type="p"><seg type="verse" xml:id="ch07v6">6</seg>And <date when-custom="1656"><persName ref="#noah">Noah</persName> was six hundred years old when <seg ana="#water">the flood of waters</seg> was upon the earth</date>. <seg type="verse" xml:id="ch07v7">7</seg>And <persName ref="#noah">Noah</persName> went in, and his sons, and his wife, and his sons' wives with him, into the ark, because of <seg ana="#water">the <seg ana="#repetition">waters of the flood</seg></seg>. <seg type="verse" xml:id="ch07v8">8</seg>Of clean <rs type="animal">beasts</rs>, and of <rs type="animal">beasts</rs> that are not clean, and of <rs type="animal">fowls</rs>, and of <rs type="animal">every thing that creepeth upon the ground</rs> <seg type="verse" xml:id="ch07v9">9</seg>there went in two and two unto <persName ref="#noah">Noah</persName> into the ark, male and female, as God commanded <persName ref="#noah">Noah</persName>. <seg type="verse" xml:id="ch07v10">10</seg>And it came to pass after the <seg ana="#seven">seven</seg> days, that <seg ana="#water">the waters of the flood </seg>were upon the earth. <seg type="verse" xml:id="ch07v11">11</seg><date when-custom="1656-02-17">In the six hundredth year of <persName ref="#noah">Noah</persName>'s life, in the second month, on the <seg ana="#seven">seventeenth</seg> day of the month, on the same day</date> <seg ana="#water">were <seg ana="#separation">all the fountains of the great deep broken up</seg></seg>, and the windows of heaven were opened. <seg type="verse" xml:id="ch07v12">12</seg><seg ana="#water">And the rain was upon the earth <seg ana="#forty">forty days and forty nights</seg></seg>.</ab>
+        
+        <ab type="p"><seg type="verse" xml:id="ch07v13">13</seg><seg ana="#repetition">In the selfsame day entered <persName ref="#noah">Noah</persName>, and <persName ref="#shem">Shem</persName>, and <persName ref="#ham">Ham</persName>, and <persName ref="#japheth">Japheth</persName>, the sons of <persName ref="#noah">Noah</persName>, and <persName ref="#noah">Noah</persName>'s wife, and the three wives of his sons with them, into the ark <seg type="verse" xml:id="ch07v14">14</seg>they, and every <rs type="animal">beast</rs> after its kind, and all the <rs type="animal">cattle</rs> after their kind, and every <rs type="animal">creeping thing that creepeth upon the earth</rs> after its kind, and every <rs type="animal">fowl</rs> after its kind, every <rs type="animal">bird</rs> of every sort. <seg type="verse" xml:id="ch07v15">15</seg>And they went in unto <persName ref="#noah">Noah</persName> into the ark, two and two of all flesh wherein is the <seg ana="#personification">breath of life</seg>. <seg type="verse" xml:id="ch07v16">16</seg>And they that went in, went in male and female of all flesh, <seg ana="#obedience">as God commanded him</seg>; and the LORD shut him in.</seg> <seg type="verse" xml:id="ch07v17">17</seg>And <seg ana="#water">the flood</seg> was <seg ana="#forty">forty</seg> days upon the earth; and <seg ana="#water">the waters</seg> increased, and bore up the ark, and it was lifted up above the earth. <seg type="verse" xml:id="ch07v18">18</seg><seg ana="#water"><seg ana="#repetition">And the waters prevailed, and increased greatly upon the earth</seg>; and the ark went upon the <seg ana="#personification">face of the waters</seg>.</seg> <seg type="verse" xml:id="ch07v19">19</seg><seg ana="#water"><seg ana="#repetition">And the waters prevailed exceedingly upon the earth</seg>; and all the <rs type="geofeature" subtype="mountain">high mountains</rs> that were under the whole heaven were covered.</seg> <seg type="verse" xml:id="ch07v20">20</seg><seg ana="#water">Fifteen cubits upward did the waters prevail</seg>; and the <rs type="geofeature" subtype="mountain">mountains</rs> were covered. <seg type="verse" xml:id="ch07v21">21</seg><seg ana="#punishment">And all flesh perished that moved upon the earth, both <rs type="animal">fowl</rs>, and <rs type="animal">cattle</rs>, and <rs type="animal">beast</rs>, and every <rs type="animal">swarming thing that swarmeth upon the earth</rs>, and every <persName ref="#adam">man</persName> <seg type="verse" xml:id="ch07v22">22</seg>all in whose nostrils was the <seg ana="#personification">breath of the spirit of life</seg>, whatsoever was in the dry land, died</seg>. <seg type="verse" xml:id="ch07v23">23</seg>And <seg ana="#punishment"><seg ana="#repetition">He blotted out every living substance which was upon the face of the ground, both <persName ref="#adam">man</persName>, and <rs type="animal">cattle</rs>, and <rs type="animal">creeping thing</rs>, and <rs type="animal">fowl</rs> of the heaven; and they were blotted out from the earth</seg>; and <persName ref="#noah">Noah</persName> only was left, and they that were with him in the ark.</seg> <seg type="verse" xml:id="ch07v24">24</seg><seg ana="#water"><seg ana="#repetition">And the waters prevailed upon the earth</seg> <measure unit="days" n="150">hundred and fifty days</measure>.</seg></ab></div>
+    
+    <div type="chapter" xml:id="ch8"><head>Chapter 8</head>
+        
+        <ab type="p"><seg type="verse" xml:id="ch08v1">1</seg>And God remembered <persName ref="#noah">Noah</persName>, and every living thing, and all the <rs type="animal">cattle</rs> that were with him in the ark; and <seg ana="#creation">God made a wind to pass over the earth</seg>, and <seg ana="#water">the waters assuaged <seg type="verse" xml:id="ch08v2">2</seg>the fountains also of the deep and the windows of heaven were stopped, and the rain from heaven was restrained. <seg type="verse" xml:id="ch08v3">3</seg>And the waters returned from off the earth continually; and after the end of a <measure unit="days" n="150">hundred and fifty days</measure> the waters decreased.</seg> <seg type="verse" xml:id="ch08v4">4</seg>And the ark rested in the <date when-custom="1656-07-17"><seg ana="#seven">seventh</seg> month, on the <seg ana="#seven">seventeenth</seg> day of the month</date>, upon <rs type="geofeature" subtype="mountain">the mountains of <placeName ref="#l_ararat">Ararat</placeName></rs>. <seg type="verse" xml:id="ch08v5">5</seg>And <seg ana="#water">the waters decreased continually</seg> until the tenth month; <date when-custom="1656-10-17">in the tenth month, on the first day of the month</date>, were <rs type="geofeature" subtype="mountain">the tops of the mountains</rs> seen.</ab>
+        
+        <ab type="p"><seg type="verse" xml:id="ch08v6">6</seg>And it came to pass at the end of <measure unit="days" n="40"><seg ana="#forty">forty</seg> days</measure>, that <persName ref="#noah">Noah</persName> opened the window of the ark which he had made. <seg type="verse" xml:id="ch08v7">7</seg>And <seg ana="#separation">he sent forth a <rs type="animal">raven</rs></seg>, and it went forth to and fro, <seg ana="#water">until the waters were dried up from off the earth</seg>. <seg type="verse" xml:id="ch08v8">8</seg><seg ana="#separation">And he sent forth a <rs type="animal">dove</rs> from him</seg>, to see if <seg ana="#water">the waters were abated from off the <seg ana="#personification">face of the ground</seg></seg>. <seg type="verse" xml:id="ch08v9">9</seg>But the <rs type="animal">dove</rs> found no rest for the sole of <seg ana="#personification">her foot</seg>, and <seg ana="#combination">she returned unto him to the ark</seg>, <seg ana="#water">for the waters were on the <seg ana="#personification">face of the whole earth</seg></seg>; and he put forth his hand, and took her, and brought her in unto him into the ark. <seg type="verse" xml:id="ch08v10">10</seg>And he stayed yet other <measure unit="days" n="7"><seg ana="#seven">seven</seg> days</measure>; and again <seg ana="#separation">he sent forth the <rs type="animal">dove</rs> out of the ark</seg>. <seg type="verse" xml:id="ch08v11">11</seg>And <seg ana="#combination">the <rs type="animal">dove</rs> came in to him at eventide</seg>; and lo in her mouth an olive-leaf freshly plucked; so <persName ref="#noah">Noah</persName> knew that the <seg ana="#water">waters were abated from off the earth</seg>. <seg type="verse" xml:id="ch08v12">12</seg>And he stayed yet other <measure unit="days" n="7"><seg ana="#seven">seven</seg> days</measure>; and <seg ana="#separation">sent forth the <rs type="animal">dove</rs>; and she returned not again unto him any more</seg>.</ab>
+        
+        <ab type="p"><seg type="verse" xml:id="ch08v13">13</seg>And it came to pass in the <date when-custom="1657-01-01">six hundred and first year, in the first month, the first day of the month</date>, the <seg ana="#water">waters were dried up from off the earth</seg>; and <persName ref="#noah">Noah</persName> removed the covering of the ark, and looked, and behold, the face of the ground was dried. <seg type="verse" xml:id="ch08v14">14</seg>And in the <date when-custom="1657-02-27">second month, on the <seg ana="#seven">seven and twentieth</seg> day of the month</date>, was the earth dry.</ab>
+        
+        <ab type="p"><seg type="verse" xml:id="ch08v15">15</seg>And God spoke unto <persName ref="#noah">Noah</persName>, saying <seg type="verse" xml:id="ch08v16">16</seg><seg ana="#commandment">'Go forth from the ark, thou, and thy wife, and thy sons, and thy sons' wives with thee. <seg type="verse" xml:id="ch08v17">17</seg>Bring forth with thee every living thing that is with thee of all flesh, <seg ana="#repetition">both <rs type="animal">fowl</rs>, and <rs type="animal">cattle</rs>, and every <rs type="animal">creeping thing</rs> that creepeth upon the earth; that they may swarm in the earth</seg>, and <seg ana="#toledot">be fruitful, and multiply upon the earth</seg>.'</seg> <seg type="verse" xml:id="ch08v18">18</seg>And <seg ana="#independence"><persName ref="#noah">Noah</persName> went forth, and his sons, and his wife, and his sons' wives with him <seg type="verse" xml:id="ch08v19">19</seg><seg ana="#creation">every <rs type="animal">beast</rs>, every <rs type="animal">creeping thing</rs>, and every <rs type="animal">fowl</rs>, whatsoever moveth upon the earth, after their families; went forth out of the ark</seg></seg>.</ab>
+        
+        <ab type="p"><seg type="verse" xml:id="ch08v20">20</seg><seg ana="#ambiguous">And <persName ref="#noah">Noah</persName> builded an altar unto the LORD; and took of every clean <rs type="animal">beast</rs>, and of every clean <rs type="animal">fowl</rs>, and offered burnt-offerings on the altar.</seg> <seg type="verse" xml:id="ch08v21">21</seg>And the LORD smelled the sweet savour; and the LORD said in His heart: <seg ana="#declaration">'<seg ana="#consequence">I will not again curse the ground any more for man's sake</seg>; for <seg ana="#evil">the imagination of man's heart is evil from his youth</seg>; neither will I again smite any more every thing living, as I have done. <seg type="verse" xml:id="ch08v22">22</seg>While the earth remaineth, seedtime and harvest, and cold and heat, and summer and winter, and day and night shall not cease.'</seg></ab></div>
+
+	<div type="chapter" xml:id="ch9"><head>Chapter 9</head>
+
+		<ab type="p"><seg type="verse" xml:id="ch09v1">1</seg><seg ana="#holy">And God blessed <persName ref="#noah">Noah</persName> and his sons</seg>, and said unto them: '<seg ana="#commandment"><seg ana="#toledot">Be fruitful and multiply</seg>, and replenish the earth.</seg>. <seg type="verse" xml:id="ch09v2">2</seg><seg ana="#declaration">And the fear of you and the dread of you shall be upon every <rs type="animal">beast</rs> of the earth, and upon every <rs type="animal">fowl</rs> of the air, and upon all wherewith the ground teemeth, and upon all the <rs type="animal">fishes</rs> of the <seg ana="#water">sea</seg>: into your hand are they delivered. <seg type="verse" xml:id="ch09v3">3</seg>Every moving thing that liveth shall be for food for you; as the green herb have I given you all.</seg> <seg type="verse" xml:id="ch09v4">4</seg><seg ana="#commandment">Only flesh with the life thereof, which is the blood thereof, shall ye not eat.</seg> <seg type="verse" xml:id="ch09v5">5</seg><seg ana="#declaration">And surely your blood of your lives will I require; at the hand of every <rs type="animal">beast</rs> will I require it; and at the hand of man, even at the hand of every man's brother, will I require the life of man.</seg> <seg type="verse" xml:id="ch09v6">6</seg><seg ana="#commandment"><seg ana="#consequence">Whoso sheddeth man's blood, by man shall his blood be shed</seg>; for <seg ana="#creation">in the image of God made He man</seg>. <seg type="verse" xml:id="ch09v7">7</seg><seg ana="#repetition #toledot #commandment">And you, be ye fruitful, and multiply; swarm in the earth, and multiply therein.</seg></seg>'</ab>
+
+		<ab type="p"><seg type="verse" xml:id="ch09v8">8</seg>And God spoke unto <persName ref="#noah">Noah</persName>, and to his sons with him, saying: <seg type="verse" xml:id="ch09v9">9</seg><seg ana="#covenant">'As for Me, behold, I establish My covenant with you, and with your <seg ana="#symbol">seed</seg> after you; <seg type="verse" xml:id="ch09v10">10</seg><seg ana="#declaration">and with every living creature that is with you, <seg ana="#repetition">the <rs type="animal">fowl</rs>, the <rs type="animal">cattle</rs>, and every <rs type="animal">beast</rs> of the earth</seg> with you; of all that go out of the ark, even every <rs type="animal">beast</rs> of the earth. <seg type="verse" xml:id="ch09v11">11</seg><seg ana="#consequence">And I will establish My covenant with you; neither shall all flesh be cut off any more by the <seg ana="#water">waters of the flood</seg>; neither shall there any more be <seg ana="#water">a flood to destroy the earth.</seg></seg></seg>'</seg> <seg type="verse" xml:id="ch09v12">12</seg>And God said: <seg ana="#covenant">'This is the token of the covenant which I make between Me and you and every living creature that is with you, for <seg ana="#toledot">perpetual generations</seg> <seg type="verse" xml:id="ch09v13">13</seg>I have set My bow in the cloud, and it shall be for a token of a covenant between Me and the earth. <seg type="verse" xml:id="ch09v14">14</seg>And it shall come to pass, when I bring clouds over the earth, and the bow is seen in the cloud <seg type="verse" xml:id="ch09v15">15</seg>that I will remember My covenant, which is between Me and you and every living creature of all flesh; and <seg ana="#water">the waters shall no more become a flood to destroy all flesh</seg>. <seg type="verse" xml:id="ch09v16">16</seg>And the bow shall be in the cloud; and I will look upon it, that I may remember the everlasting covenant between God and every living creature of all flesh that is upon the earth.' <seg type="verse" xml:id="ch09v17">17</seg>And God said unto <persName ref="#noah">Noah</persName>: '<seg ana="#repetition">This is the token of the covenant which I have established between Me and all flesh that is upon the earth</seg>.'</seg></ab>
+
+		<ab type="p"><seg type="verse" xml:id="ch09v18">18</seg><seg ana="#toledot">And the sons of <persName ref="#noah">Noah</persName>, that went forth from the ark, were <persName ref="#shem">Shem</persName>, and <persName ref="#ham">Ham</persName>, and <persName ref="#japheth">Japheth</persName>; and <persName ref="#ham">Ham</persName> is the father of Canaan. <seg type="verse" xml:id="ch09v19">19</seg>These three were the sons of <persName ref="#noah">Noah</persName>, and of these was the whole earth overspread.</seg></ab>
+
+		<ab type="p"><seg type="verse" xml:id="ch09v20">20</seg><seg ana="#farmer">And <persName ref="#noah">Noah</persName> the husbandman began, and planted a <placeName ref="#l_vineyard">vineyard</placeName>.</seg> <seg type="verse" xml:id="ch09v21">21</seg>And he drank of the wine, and was drunken; and he was uncovered within his tent. <seg type="verse" xml:id="ch09v22">22</seg><seg ana="#consequence"><seg ana="#bad">And <persName ref="#ham">Ham</persName>, the father of Canaan, saw the nakedness of his father, and told his two brethren without</seg></seg>. <seg type="verse" xml:id="ch09v23">23</seg>And <seg ana="#good"><persName ref="#shem">Shem</persName> and <persName ref="#japheth">Japheth</persName> took a garment, and laid it upon both their shoulders, and went backward, and covered the nakedness of their father; and their faces were backward, and they saw not their father's nakedness</seg>. <seg type="verse" xml:id="ch09v24">24</seg>And <persName ref="#noah">Noah</persName> awoke from his wine, and knew what his youngest son had done unto him. <seg type="verse" xml:id="ch09v25">25</seg>And he said:</ab>
+
+		<lg>
+		    <l><seg ana="#punishment"><seg ana="#bad">Cursed be Canaan</seg>; a servant of servants shall he be unto his brethren.</seg></l>
+		</lg>
+
+		<ab type="p"><seg type="verse" xml:id="ch09v26">26</seg> And he said:</ab>
+
+		<lg>
+			<l><seg ana="#holy">Blessed be the LORD, the God of <persName ref="#shem">Shem</persName>;</seg></l>
+		    <l><seg ana="#punishment" xml:id="brkseg001" next="#brkseg002">And let Canaan be their servant.</seg></l>
+		    <l><seg ana="#punishment" xml:id="brkseg002" prev="brkseg001" next="#brkseg003"><seg type="verse" xml:id="ch09v27">27</seg>God enlarge <persName ref="#japheth">Japheth</persName>, and he shall dwell in the tents of <persName ref="#shem">Shem</persName>;</seg></l>
+		    <l><seg ana="#punishment" xml:id="brkseg003" prev="#brkseg002">And let Canaan be their servant.</seg></l>
+		</lg>
+
+	    <ab type="p"><seg type="verse" xml:id="ch09v28">28</seg>And <persName ref="#noah">Noah</persName> lived after the flood three hundred and fifty years. <seg type="verse" xml:id="ch09v29">29</seg>And all the days of <persName ref="#noah">Noah</persName> were <measure unit="years" n="950">nine hundred and fifty years</measure>; and he died.</ab></div>
+
+	<div type="chapter" xml:id="ch10"><head>Chapter 10</head>
+
+	    <ab type="p"><seg type="verse" xml:id="ch10v1">1</seg><seg ana="#toledot">Now these are the generations of the sons of <persName ref="#noah">Noah</persName>: <persName ref="#shem">Shem</persName>, <persName ref="#ham">Ham</persName>, and <persName ref="#japheth">Japheth</persName>; and unto them were sons born after the flood. <seg type="verse" xml:id="ch10v2">2</seg>The sons of <persName ref="#japheth">Japheth</persName>: Gomer, and Magog, and Madai, and Javan, and Tubal, and Meshech, and Tiras. <seg type="verse" xml:id="ch10v3">3</seg>And the sons of Gomer: Ashkenaz, and Riphath, and Togarmah. <seg type="verse" xml:id="ch10v4">4</seg>And the sons of Javan: Elishah, and Tarshish, Kittim, and Dodanim.</seg> <seg type="verse" xml:id="ch10v5">5</seg>Of these were the isles of the nations divided in their lands, every one after his tongue, after their families, in their nations. <seg type="verse" xml:id="ch10v6">6</seg><seg ana="#toledot">And the sons of <persName ref="#ham">Ham</persName>: Cush, and Mizraim, and Put, and Canaan. <seg type="verse" xml:id="ch10v7">7</seg>And the sons of Cush: Seba, and Havilah, and Sabtah, and Raamah, and Sabteca; and the sons of Raamah: Sheba, and Dedan. <seg type="verse" xml:id="ch10v8">8</seg>And Cush begot Nimrod; he began to be a mighty one in the earth.</seg> <seg type="verse" xml:id="ch10v9">9</seg>He was a mighty hunter before the LORD; wherefore it is said: 'Like Nimrod a mighty hunter before the LORD.' <seg type="verse" xml:id="ch10v10">10</seg>And the beginning of his kingdom was <placeName ref="#l_babel">Babel</placeName>, and <placeName ref="#l_erech">Erech</placeName>, and <placeName ref="#accad">Accad</placeName>, and <placeName ref="#l_calneh">Calneh</placeName>, in the land of <placeName ref="#l_shinar">Shinar</placeName>. <seg type="verse" xml:id="ch10v11">11</seg>Out of that land went forth Asshur, and builded Nineveh, and Rehoboth-ir, and Calah <seg type="verse" xml:id="ch10v12">12</seg>and Resen between Nineveh and Calah--the same is the great city. <seg type="verse" xml:id="ch10v13">13</seg><seg ana="#toledot">And Mizraim begot Ludim, and Anamim, and Lehabim, and Naphtuhim <seg type="verse" xml:id="ch10v14">14</seg>and Pathrusim, and Casluhim--whence went forth the Philistines--and Caphtorim.</seg></ab>
+
+		<ab type="p"><seg type="verse" xml:id="ch10v15">15</seg><seg ana="#toledot">And Canaan begot Zidon his firstborn, and Heth <seg type="verse" xml:id="ch10v16">16</seg>and the Jebusite, and the Amorite, and the Girgashite <seg type="verse" xml:id="ch10v17">17</seg>and the Hivite, and the Arkite, and the Sinite <seg type="verse" xml:id="ch10v18">18</seg>and the Arvadite, and the Zemarite, and the Hamathite; and afterward were the families of the Canaanite spread abroad.</seg> <seg type="verse" xml:id="ch10v19">19</seg>And the border of the Canaanite was from Zidon, as thou goest toward Gerar, unto Gaza; as thou goest toward Sodom and Gomorrah and Admah and Zeboiim, unto Lasha. <seg type="verse" xml:id="ch10v20">20</seg><seg ana="#repetition">These are the sons of <persName ref="#ham">Ham</persName>, after their families, after their tongues, in their lands, in their nations</seg>.</ab>
+
+		<ab type="p"><seg type="verse" xml:id="ch10v21">21</seg>And unto <persName ref="#shem">Shem</persName>, the father of all the children of <persName ref="#eber">Eber</persName>, the elder brother of <persName ref="#japheth">Japheth</persName>, to him also were children born. <seg type="verse" xml:id="ch10v22">22</seg><seg ana="#toledot">The sons of <persName ref="#shem">Shem</persName>: Elam, and Asshur, and <persName ref="#arpachshad">Arpachshad</persName>, and Lud, and Aram. <seg type="verse" xml:id="ch10v23">23</seg>And the sons of Aram: Uz, and Hul, and Gether, and Mash. <seg type="verse" xml:id="ch10v24">24</seg>And <persName ref="#arpachshad">Arpachshad</persName> begot <persName ref="#shelah">Shelah</persName>; and <persName ref="#shelah">Shelah</persName> begot <persName ref="#eber">Eber</persName>. <seg type="verse" xml:id="ch10v25">25</seg>And unto <persName ref="#eber">Eber</persName> were born two sons; the name of the one was <persName ref="#peleg">Peleg</persName>; for in his days was the earth divided; and his brother's name was Joktan. <seg type="verse" xml:id="ch10v26">26</seg>And Joktan begot Almodad, and Sheleph, and Hazarmaveth, and Jerah <seg type="verse" xml:id="ch10v27">27</seg>and Hadoram, and Uzal, and Diklah <seg type="verse" xml:id="ch10v28">28</seg>and Obal, and Abimael, and Sheba <seg type="verse" xml:id="ch10v29">29</seg>and Ophir, and Havilah, and Jobab; all these were the sons of Joktan.</seg> <seg type="verse" xml:id="ch10v30">30</seg>And their dwelling was from <placeName ref="#l_mesha">Mesha</placeName>, as thou goest toward <placeName ref="#l_sephar">Sephar</placeName>, unto the mountain of the east. <seg type="verse" xml:id="ch10v31">31</seg>These are the sons of <persName ref="#shem">Shem</persName>, after their families, after their tongues, in their lands, after their nations.</ab>
+
+		<ab type="p"><seg type="verse" xml:id="ch10v32">32</seg><seg ana="#toledot">These are the families of the sons of <persName ref="#noah">Noah</persName>, after their generations, in their nations</seg>; <seg ana="#separation">and of these were the nations divided in the earth after the flood</seg>.</ab></div>
+
+	<div type="chapter" xml:id="ch11"><head>Chapter 11</head>
+
+	    <ab type="p"><seg type="verse" xml:id="ch11v1">1</seg><seg ana="#combination">And the whole earth was of one language and of one speech</seg>. <seg type="verse" xml:id="ch11v2">2</seg>And it came to pass, as they journeyed east, that they found a <rs type="geofeature" subtype="plain">plain</rs> in the land of <placeName ref="#l_shinar">Shinar</placeName>; and they dwelt there. <seg type="verse" xml:id="ch11v3">3</seg>And they said one to another: <rs type="geofeature" subtype="city">'Come, let us make brick, and burn them thoroughly.' And they had brick for stone, and slime had they for mortar.</rs> <seg type="verse" xml:id="ch11v4">4</seg>And they said: '<seg ana="#creation"><rs type="geofeature" subtype="city">Come, let us build us a city, and a tower, with its top in heaven</rs></seg>, and <seg ana="#flaw">let us make us a name</seg>; <seg ana="#separation">lest we be scattered abroad upon the <seg ana="#personification">face of the whole earth</seg></seg>.' <seg type="verse" xml:id="ch11v5">5</seg>And the LORD came down to see the city and the tower, which the children of men builded. <seg type="verse" xml:id="ch11v6">6</seg>And the LORD said: '<seg ana="#declaration">Behold, they are one people, and they have all one language; and this is what they begin to do; and now nothing will be withholden from them, which they purpose to do.</seg> <seg type="verse" xml:id="ch11v7">7</seg><seg ana="#punishment">Come, let us go down, and there confound their language, that they may not understand one another's speech.</seg>' <seg type="verse" xml:id="ch11v8">8</seg><seg ana="#separation">So the LORD scattered them abroad</seg> from thence upon the <seg ana="#personification">face of all the earth</seg>; and they left off to build the city. <seg type="verse" xml:id="ch11v9">9</seg><seg ana="#consequence">Therefore was the name of it called <placeName ref="#l_babel">Babel</placeName></seg>; <seg ana="#separation">because the LORD did there confound the language of all the earth; and from thence did <seg ana="#repetition">the LORD scatter them abroad upon the face of all the earth</seg></seg>.</ab>
+
+	    <ab type="p"><seg ana="#toledot" xml:id="brkseg004" next="#brkseg005"><seg type="verse" xml:id="ch11v10">10</seg>These are the generations of <persName ref="#shem">Shem</persName>. <measure unit="years" n="100"><persName ref="#shem">Shem</persName> was a hundred years old</measure>, and begot <persName ref="#arpachshad">Arpachshad</persName> two years after the flood. <seg type="verse" xml:id="ch11v11">11</seg>And <persName ref="#shem">Shem</persName> lived after he begot <persName ref="#arpachshad">Arpachshad</persName> <measure unit="years" n="500">five hundred years</measure>, and begot sons and daughters.</seg></ab>
+
+	    <ab type="p"><seg ana="#toledot" xml:id="brkseg005" prev="#brkseg004" next="#brkseg006"><seg type="verse" xml:id="ch11v12">12</seg>And <persName ref="#arpachshad">Arpachshad</persName> lived <measure unit="years" n="35">five and thirty years</measure>, and begot <persName ref="#shelah">Shelah</persName>. <seg type="verse" xml:id="ch11v13">13</seg>And <persName ref="#arpachshad">Arpachshad</persName> lived after he begot <persName ref="#shelah">Shelah</persName> <measure unit="years" n="403">four hundred and three years</measure>, and begot sons and daughters.</seg></ab>
+
+	    <ab type="p"><seg ana="#toledot" xml:id="brkseg006" prev="#brkseg005" next="#brkseg007"><seg type="verse" xml:id="ch11v14">14</seg>And <persName ref="#shelah">Shelah</persName> lived <measure unit="years" n="30">thirty years</measure>, and begot <persName ref="#eber">Eber</persName>. <seg type="verse" xml:id="ch11v15">15</seg>And <persName ref="#shelah">Shelah</persName> lived after he begot <persName ref="#eber">Eber</persName> <measure unit="years" n="403">four hundred and three years</measure>, and begot sons and daughters.</seg></ab>
+
+	    <ab type="p"><seg ana="#toledot" xml:id="brkseg007" prev="#brkseg006" next="#brkseg008"><seg type="verse" xml:id="ch11v16">16</seg>And <persName ref="#eber">Eber</persName> lived <measure unit="years" n="34">four and thirty years</measure>, and begot <persName ref="#peleg">Peleg</persName>. <seg type="verse" xml:id="ch11v17">17</seg>And <persName ref="#eber">Eber</persName> lived after he begot <persName ref="#peleg">Peleg</persName> <measure unit="years" n="430">four hundred and thirty years</measure>, and begot sons and daughters.</seg></ab>
+
+	    <ab type="p"><seg ana="#toledot" xml:id="brkseg008" prev="#brkseg007" next="#brkseg009"><seg type="verse" xml:id="ch11v18">18</seg>And <persName ref="#peleg">Peleg</persName> lived <measure unit="years" n="30">thirty years</measure>, and begot <persName ref="#reu">Reu</persName>. <seg type="verse" xml:id="ch11v19">19</seg>And <persName ref="#peleg">Peleg</persName> lived after he begot <persName ref="#reu">Reu</persName> <measure unit="years" n="209">two hundred and nine years</measure>, and begot sons and daughters.</seg></ab>
+
+	    <ab type="p"><seg ana="#toledot" xml:id="brkseg009" prev="#brkseg008" next="#brkseg010"><seg type="verse" xml:id="ch11v20">20</seg>And <persName ref="#reu">Reu</persName> lived <measure unit="years" n="32">two and thirty years</measure>, and begot <persName ref="#serug">Serug</persName>. <seg type="verse" xml:id="ch11v21">21</seg>And <persName ref="#reu">Reu</persName> lived after he begot <persName ref="#serug">Serug</persName> <measure unit="years" n="207">two hundred and seven years</measure>, and begot sons and daughters.</seg></ab>
+
+	    <ab type="p"><seg ana="#toledot" xml:id="brkseg010" prev="#brkseg009" next="#brkseg011"><seg type="verse" xml:id="ch11v22">22</seg>And <persName ref="#serug">Serug</persName> lived <measure unit="years" n="30">thirty years</measure>, and begot <persName ref="#nahor">Nahor</persName>. <seg type="verse" xml:id="ch11v23">23</seg>And <persName ref="#serug">Serug</persName> lived after he begot <persName ref="#nahor">Nahor</persName> <measure unit="years" n="200">two hundred years</measure>, and begot sons and daughters.</seg></ab>
+
+	    <ab type="p"><seg ana="#toledot" xml:id="brkseg011" prev="#brkseg010" next="#brkseg012"><seg type="verse" xml:id="ch11v24">24</seg>And <persName ref="#nahor">Nahor</persName> lived <measure unit="years" n="29">nine and twenty years</measure>, and begot <persName ref="#terah">Terah</persName>. <seg type="verse" xml:id="ch11v25">25</seg>And <persName ref="#nahor">Nahor</persName> lived after he begot <persName ref="#terah">Terah</persName> <measure unit="years" n="119">a hundred and nineteen years</measure>, and begot sons and daughters.</seg></ab>
+
+	    <ab type="p"><seg ana="#toledot" xml:id="brkseg012" prev="#brkseg011"><seg type="verse" xml:id="ch11v26">26</seg>And <persName ref="#terah">Terah</persName> lived <measure unit="years" n="70">seventy years</measure>, and begot <persName ref="#abraham">Abram</persName>, <persName ref="#nahor2">Nahor</persName>, and <persName ref="#haran">Haran</persName>. <seg type="verse" xml:id="ch11v27">27</seg><seg ana="#toledot">Now these are the generations of <persName ref="#terah">Terah</persName>.</seg> <persName ref="#terah">Terah</persName> begot <persName ref="#abraham">Abram</persName>, <persName ref="#nahor2">Nahor</persName>, and <persName ref="#haran">Haran</persName>; and <persName ref="#haran">Haran</persName> begot <persName ref="#lot">Lot</persName>. <seg type="verse" xml:id="ch11v28">28</seg>And <persName ref="#haran">Haran</persName> died in the presence of his father <persName ref="#terah">Terah</persName> in the land of his nativity, in <placeName ref="#l_ur">Ur of the Chaldees</placeName>. <seg type="verse" xml:id="ch11v29">29</seg>And <persName ref="#abraham">Abram</persName> and <persName ref="#nahor2">Nahor</persName> took them wives: the name of <persName ref="#abraham">Abram</persName>'s wife was <persName ref="#sarah">Sarai</persName>; and the name of <persName ref="#nahor2">Nahor</persName>'s wife, <persName ref="#milcah">Milcah</persName>, the daughter of <persName ref="#haran">Haran</persName>, the father of <persName ref="#milcah">Milcah</persName>, and the father of <persName ref="#iscah">Iscah</persName>. <seg type="verse" xml:id="ch11v30">30</seg>And <seg ana="#ambiguous"><persName ref="#sarah">Sarai</persName> was barren</seg>; she had no child. <seg type="verse" xml:id="ch11v31">31</seg>And <persName ref="#terah">Terah</persName> took <persName ref="#abraham">Abram</persName> his son, and <persName ref="#lot">Lot</persName> the son of <persName ref="#haran">Haran</persName>, his son's son, and <persName ref="#sarah">Sarai</persName> his daughter-in-law, his son <persName ref="#abraham">Abram</persName>'s wife; and they went forth with them from <placeName ref="#l_ur">Ur of the Chaldees</placeName>, to go into the land of <placeName ref="#l_canaan">Canaan</placeName>; and they came unto <placeName ref="#l_haran">Haran</placeName>, and dwelt there. <seg type="verse" xml:id="ch11v32">32</seg>And the days of <persName ref="#terah">Terah</persName> were <measure unit="years" n="205">two hundred and five years</measure>; and <persName ref="#terah">Terah</persName> died in <placeName ref="#l_haran">Haran</placeName>.</seg></ab></div>
+
+	<div type="chapter" xml:id="ch12">
+		<head>Chapter 12</head>
+
+	    <ab type="p"><seg type="verse" xml:id="ch12v1">1</seg>Now the LORD said unto <persName ref="#abraham">Abram</persName>: '<seg ana="#commandment">Get thee out of thy country, and from thy kindred, and from thy father's house, unto the land that I will show thee.</seg> <seg type="verse" xml:id="ch12v2">2</seg><seg ana="#reward">And I will make of thee a great nation, <seg ana="#holy">and I will bless thee, and make thy name great; and be thou a blessing</seg>. <seg type="verse" xml:id="ch12v3">3</seg><seg ana="#holy">And I will bless them that bless thee</seg>, <seg ana="#punishment">and him that curseth thee will I curse</seg>; <seg ana="#holy">and in thee shall all the families of the earth be blessed.</seg></seg>' <seg type="verse" xml:id="ch12v4">4</seg><seg ana="#obedience">So <persName ref="#abraham">Abram</persName> went, as the LORD had spoken unto him</seg>; and <persName ref="#lot">Lot</persName> went with him; and <date when-custom="2023"><persName ref="#abraham">Abram</persName> was seventy and five years old when <seg ana="#separation">he departed out of <placeName ref="#l_haran">Haran</placeName></seg></date>. <seg type="verse" xml:id="ch12v5">5</seg>And <persName ref="#abraham">Abram</persName> took <persName ref="#sarah">Sarai</persName> his wife, and <persName ref="#lot">Lot</persName> his brother's son, and all their substance that they had gathered, and the souls that they had gotten in <placeName ref="#l_haran">Haran</placeName>; and they went forth to go into the land of <placeName ref="#l_canaan">Canaan</placeName>; <seg ana="#repetition">and into the land of <placeName ref="#l_canaan">Canaan</placeName> they came</seg>. <seg type="verse" xml:id="ch12v6">6</seg>And <persName ref="#abraham">Abram</persName> passed through the land unto the place of <placeName ref="#l_shechem">Shechem</placeName>, unto the terebinth of Moreh. And the Canaanite was then in the land. <seg type="verse" xml:id="ch12v7">7</seg>And the LORD appeared unto <persName ref="#abraham">Abram</persName>, and said: '<seg ana="#reward"><seg ana="#toledot">Unto thy <seg ana="#symbol">seed</seg> will I give this land</seg></seg>'; and he builded there an altar unto the LORD, who appeared unto him. <seg type="verse" xml:id="ch12v8">8</seg>And he removed from thence unto the mountain on the east of <placeName ref="#l_beth-el">Beth-el</placeName>, and pitched his tent, having <placeName ref="#l_beth-el">Beth-el</placeName> on the west, and <placeName ref="#l_ai">Ai</placeName> on the east; and he builded there an altar unto the LORD, and called upon the name of the LORD. <seg type="verse" xml:id="ch12v9">9</seg>And <persName ref="#abraham">Abram</persName> journeyed, going on still toward the South.</ab>
+
+		<ab type="p"><seg type="verse" xml:id="ch12v10">10</seg>And there was a famine in the land; and <persName ref="#abraham">Abram</persName> went down into <placeName ref="#l_egypt">Egypt</placeName> to sojourn there; <seg ana="#food">for the famine was sore in the land</seg>. <seg type="verse" xml:id="ch12v11">11</seg>And it came to pass, when he was come near to enter into <placeName ref="#l_egypt">Egypt</placeName>, that he said unto <persName ref="#sarah">Sarai</persName> his wife: 'Behold now, I know that thou art a <seg ana="#good">fair</seg> woman to look upon. <seg type="verse" xml:id="ch12v12">12</seg>And it will come to pass, when the Egyptians shall see thee, that they will say: This is his wife; and <seg ana="#consequence">they will kill me</seg>, but thee they will keep alive. <seg type="verse" xml:id="ch12v13">13</seg>Say, I pray thee, thou art my sister; that it may be well with me for thy sake, and that my soul may live because of thee.' <seg type="verse" xml:id="ch12v14">14</seg>And it came to pass, that, when <persName ref="#abraham">Abram</persName> was come into <placeName ref="#l_egypt">Egypt</placeName>, <seg ana="#good">the Egyptians beheld the woman that she was very fair</seg>.<seg type="verse" xml:id="ch12v15">15</seg>And the princes of Pharaoh saw her, and praised her to Pharaoh; and the woman was taken into Pharaoh's house. <seg type="verse" xml:id="ch12v16">16</seg>And he dealt well with <persName ref="#abraham">Abram</persName> for her sake; and he had <rs type="animal">sheep</rs>, and <rs type="animal">oxen</rs>, and <rs type="animal">he-asses</rs>, and <persName ref="#genhumanm">men-servants</persName>, and <persName ref="#genhumanf">maid-servants</persName>, and <rs type="animal">she-asses</rs>, and <rs type="animal">camels</rs>. <seg type="verse" xml:id="ch12v17">17</seg> <seg ana="#punishment">And the LORD plagued Pharaoh and his house with great plagues because of <persName ref="#sarah">Sarai</persName> <persName ref="#abraham">Abram</persName>'s wife</seg>. <seg type="verse" xml:id="ch12v18">18</seg>And Pharaoh called <persName ref="#abraham">Abram</persName>, and said: 'What is this that thou hast done unto me? why didst thou not tell me that she was thy wife? <seg type="verse" xml:id="ch12v19">19</seg>Why saidst thou: She is my sister? so that I took her to be my wife; now therefore behold thy wife, take her, and go thy way.' <seg type="verse" xml:id="ch12v20">20</seg>And Pharaoh gave men charge concerning him; and they brought him on the way, and hiswife, and all that he had.</ab></div>
+
+	<div type="chapter" xml:id="ch13"><head>Chapter 13</head>
+
+		<ab type="p"><seg type="verse" xml:id="ch13v1">1</seg>And <persName ref="#abraham">Abram</persName> went up out of <placeName ref="#l_Egypt">Egypt</placeName>, he, and his wife, and all that he had, and <persName ref="#lot">Lot</persName> with him, into the South. <seg type="verse" xml:id="ch13v2">2</seg>And <persName ref="#abraham">Abram</persName> was very rich in <rs type="animal">cattle</rs>, in silver, and in gold. <seg type="verse" xml:id="ch13v3">3</seg>And he went on his journeys from the South even to <placeName ref="#l_beth-el">Beth-el</placeName>, unto the place where his tent had been at the beginning, between <placeName ref="#l_beth-el">Beth-el</placeName> and <placeName ref="#l_ai">Ai</placeName> <seg type="verse" xml:id="ch13v4">4</seg>unto the place of the altar, which he had made there at the first; and <persName ref="#abraham">Abram</persName> called there on the name of the LORD. <seg type="verse" xml:id="ch13v5">5</seg>And <persName ref="#lot">Lot</persName> also, who went with <persName ref="#abraham">Abram</persName>, had flocks, and herds, and tents. <seg type="verse" xml:id="ch13v6">6</seg><seg ana="#food">And the land was not able to bear them</seg>, that they might dwell together; for their substance was great, so that they could not dwell together. <seg type="verse" xml:id="ch13v7">7</seg>And there was a strife between the herdmen of <persName ref="#abraham">Abram</persName>'s <rs type="animal">cattle</rs> and the herdmen of <persName ref="#lot">Lot</persName>'s <rs type="animal">cattle</rs>. And the Canaanite and the Perizzite dwelt then in the land. <seg type="verse" xml:id="ch13v8">8</seg>And <persName ref="#abraham">Abram</persName> said unto <persName ref="#lot">Lot</persName>: 'Let there be no strife, I pray thee, between me and thee, and between my herdmen and thy herdmen; for we are brethren. <seg type="verse" xml:id="ch13v9">9</seg>Is not the whole land before thee? <seg ana="#separation">separate thyself, I pray thee, from me; if thou wilt take the left hand, then I will go to the right; or if thou take the right hand, then I will go to the left</seg>.' <seg type="verse" xml:id="ch13v10">10</seg>And <persName ref="#lot">Lot</persName> lifted up his eyes, and beheld all the plain of the Jordan, that it was <seg ana="#water">well watered</seg> every where, before the LORD destroyed Sodom and Gomorrah, like the <placeName ref="#l_eden">garden of the LORD</placeName>, like the land of <placeName ref="#l_Egypt">Egypt</placeName>, as thou goest unto <placeName ref="#l_zoar">Zoar</placeName>. <seg type="verse" xml:id="ch13v11">11</seg>So <persName ref="#lot">Lot</persName> chose him all the plain of the <placeName ref="#l_jordan">Jordan</placeName>; and <persName ref="#lot">Lot</persName> journeyed east; <seg ana="#separation">and they separated themselves the one from the other</seg>. <seg type="verse" xml:id="ch13v12">12</seg><persName ref="#abraham">Abram</persName> dwelt in the land of <placeName ref="#l_canaan">Canaan</placeName>, and <persName ref="#lot">Lot</persName> dwelt in the cities of the Plain, and moved his tent as far as <placeName ref="#l_sodom">Sodom</placeName>. <seg type="verse" xml:id="ch13v13">13</seg>Now <seg ana="#evil">the men of Sodom were wicked and sinners against the LORD exceedingly</seg>. <seg type="verse" xml:id="ch13v14">14</seg>And the LORD said unto <persName ref="#abraham">Abram</persName>, after that <seg ana="#separation"><persName ref="#lot">Lot</persName> was separated from him</seg>: <seg ana="#covenant">'Lift up now thine eyes, and look from the place where thou art, northward and southward and eastward and westward <seg type="verse" xml:id="ch13v15">15</seg><seg ana="#reward">for all the land which thou seest, to thee will I give it, and to thy <seg ana="#symbol">seed</seg> for ever</seg>. <seg type="verse" xml:id="ch13v16">16</seg>And <seg ana="#toledot">I will make thy <seg ana="#symbol">seed</seg> as the dust of the earth</seg>; so that if a man can number the dust of the earth, then shall thy <seg ana="#symbol">seed</seg> also be numbered. <seg type="verse" xml:id="ch13v17">17</seg>Arise, walk through the land in the length of it and in the breadth of it; for unto thee will I give it.'</seg> <seg type="verse" xml:id="ch13v18">18</seg>And <persName ref="#abraham">Abram</persName> moved his tent, and came and dwelt by the terebinths of Mamre, which are in <placeName ref="#l_hebron">Hebron</placeName>, and built there an altar unto the LORD.</ab></div>
+
+	<div type="chapter" xml:id="ch14"><head>Chapter 14</head>
+
+		<ab type="p"><seg type="verse" xml:id="ch14v1">1</seg>And it came to pass in the days of Amraphel king of Shinar, Arioch king of Ellasar, Chedorlaomer king of Elam, and Tidal king of Goiim <seg type="verse" xml:id="ch14v2">2</seg> that they made war with Bera king of <placeName ref="#l_sodom">Sodom</placeName>, and with Birsha king of <placeName ref="#l_gomorrah">Gomorrah</placeName>, Shinab king of Admah, and Shemeber king of Zeboiim, and the king of Bela--the same is Zoar. <seg type="verse" xml:id="ch14v3">3</seg>All these came as allies unto <placeName ref="#l_saltsea">the vale of Siddim--<seg ana="#water">the same is the Salt Sea</seg></placeName>. <seg type="verse" xml:id="ch14v4">4</seg>Twelve years they served Chedorlaomer, and in the thirteenth year they rebelled. <seg type="verse" xml:id="ch14v5">5</seg>And in the fourteenth year came Chedorlaomer and the kings that were with him, and smote the Rephaim in Ashteroth-karnaim, and the Zuzim in <persName ref="#ham">Ham</persName>, and the Emim in Shaveh-kiriathaim <seg type="verse" xml:id="ch14v6">6</seg>and the Horites in their mount Seir, unto El-paran, which is by the wilderness. <seg type="verse" xml:id="ch14v7">7</seg>And they turned back, and came to En-mishpat--the same is Kadesh--and smote all the country of the Amalekites, and also the Amorites, that dwelt in Hazazon-tamar. <seg type="verse" xml:id="ch14v8">8</seg>And there went out the king of <placeName ref="#l_sodom">Sodom</placeName>, and the king of <placeName ref="#l_gomorrah">Gomorrah</placeName>, and the king of Admah, and the king of Zeboiim, and the king of Bela--the same is Zoar; and they set the battle in array against them in the vale of Siddim <seg type="verse" xml:id="ch14v9">9</seg>against Chedorlaomer king of Elam, and Tidal king of Goiim, and Amraphel king of Shinar, and Arioch king of Ellasar; four kings against the five. <seg type="verse" xml:id="ch14v10">10</seg>Now the vale of Siddim was full of <rs type="geofeature" subtype="city">slime pits</rs>; and the kings of <placeName ref="#l_sodom">Sodom</placeName> and <placeName ref="#l_gomorrah">Gomorrah</placeName> fled, and they fell there, and they that remained fled to the mountain. <seg type="verse" xml:id="ch14v11">11</seg>And they took all the goods of <placeName ref="#l_sodom">Sodom</placeName> and <placeName ref="#l_gomorrah">Gomorrah</placeName>, and all their victuals, and went their way. <seg type="verse" xml:id="ch14v12">12</seg><seg ana="#consequence">And they took <persName ref="#lot">Lot</persName>, <persName ref="#abraham">Abram</persName>'s brother's son, who dwelt in <placeName ref="#l_sodom">Sodom</placeName>, and his goods, and departed.</seg> <seg type="verse" xml:id="ch14v13">13</seg>And there came one that had escaped, and told <persName ref="#abraham">Abram</persName> the Hebrew--now he dwelt by the terebinths of Mamre the Amorite, brother of Eshcol, and brother of Aner; and these were confederate with <persName ref="#abraham">Abram</persName>. <seg type="verse" xml:id="ch14v14">14</seg>And when <persName ref="#abraham">Abram</persName> heard that his brother was taken captive, he led forth his trained men, born in his house, three hundred and eighteen, and pursued as far as Dan. <seg type="verse" xml:id="ch14v15">15</seg><seg ana="#consequence"><seg ana="#separation"><seg ana="#separation">And he divided himself against them by night</seg>, he and his servants</seg>, and smote them, and pursued them unto Hobah</seg>, which is on the left hand of Damascus. <seg type="verse" xml:id="ch14v16">16</seg>And he brought back all the goods, and also brought back his brother <persName ref="#lot">Lot</persName>, and his goods, and the women also, and the people. <seg type="verse" xml:id="ch14v17">17</seg>And the king of <placeName ref="#l_sodom">Sodom</placeName> went out to meet him, after his return from the slaughter of Chedorlaomer and the kings that were with him, at the vale of Shaveh--the same is the King's Vale. <seg type="verse" xml:id="ch14v18">18</seg>And Melchizedek king of Salem brought forth bread and wine; and he was priest of God the Most High. <seg type="verse" xml:id="ch14v19">19</seg><seg ana="#holy">And he blessed him, and said: 'Blessed be <persName ref="#abraham">Abram</persName> of God Most High</seg>, Maker of heaven and earth <seg type="verse" xml:id="ch14v20">20</seg><seg ana="#holy">and blessed be God the Most High</seg>, who hath delivered thine enemies into thy hand.' And he gave him a tenth of all. <seg type="verse" xml:id="ch14v21">21</seg>And the king of <placeName ref="#l_sodom">Sodom</placeName> said unto <persName ref="#abraham">Abram</persName>: 'Give me the persons, and take the goods to thyself.' <seg type="verse" xml:id="ch14v22">22</seg>And <persName ref="#abraham">Abram</persName> said to the king of Sodom: <seg ana="#declaration">'<seg ana="#obedience">I have lifted up my hand unto the LORD, God Most High, Maker of heaven and earth <seg type="verse" xml:id="ch14v23">23</seg>that I will not take a thread nor a shoe-latchet nor aught that is thine</seg>, lest thou shouldest say: I have made <persName ref="#abraham">Abram</persName> rich <seg type="verse" xml:id="ch14v24">24</seg>save only that which the young men have eaten, and the portion of the men which went with me, Aner, Eshcol, and Mamre, let them take their portion.'</seg></ab></div>
+
+	<div type="chapter" xml:id="ch15"><head>Chapter 15</head>
+
+	    <ab type="p"><seg type="verse" xml:id="ch15v1">1</seg>After these things the word of the LORD came unto <persName ref="#abraham">Abram</persName> in a vision, saying: <seg ana="#declaration">'Fear not, <persName ref="#abraham">Abram</persName>, I am thy shield, thy reward shall be exceeding great.'</seg> <seg type="verse" xml:id="ch15v2">2</seg>And <persName ref="#abraham">Abram</persName> said: 'O Lord GOD, what wilt Thou give me, <seg ana="#toledot">seeing I go hence childless</seg>, and he that shall be possessor of my house is Eliezer of Damascus?' <seg type="verse" xml:id="ch15v3">3</seg>And <persName ref="#abraham">Abram</persName> said: <seg ana="#toledot">'Behold, to me Thou hast given no <seg ana="#symbol">seed</seg>, and, lo, one born in my house is to be mine heir.'</seg> <seg type="verse" xml:id="ch15v4">4</seg> And, behold, the word of the LORD came unto him, saying: <seg ana="#declaration"><seg ana="#toledot">'This man shall not be thine heir; but he that shall comeforth out of thine own bowels shall be thine heir.'</seg></seg> <seg type="verse" xml:id="ch15v5">5</seg>And He brought him forth abroad, and said: <seg ana="#reward">'Look now toward heaven, and count the stars, if thou be able to count them'; and He said unto him: <seg ana="#toledot">'So shall thy <seg ana="#symbol">seed</seg> be.'</seg></seg> <seg type="verse" xml:id="ch15v6">6</seg>And <seg ana="#obedience">he believed in the LORD; and He counted it to him for righteousness</seg>. <seg type="verse" xml:id="ch15v7">7</seg>And He said unto him: <seg ana="#declaration">'I am the LORD that brought thee out of <placeName ref="#l_ur">Ur of the Chaldees</placeName>, <seg ana="#toledot"><seg ana="#toledot">to give thee this land to inherit it</seg></seg>.'</seg> <seg type="verse" xml:id="ch15v8">8</seg>And he said: 'O Lord GOD, whereby shall I know that I shall inherit it?' <seg type="verse" xml:id="ch15v9">9</seg>And He said unto him: <seg ana="#commandment">'Take Me a <rs type="animal">heifer</rs> of three years old, and a <rs type="animal">she-goat</rs> of three years old, and a <rs type="animal">ram</rs> of three years old, and a <rs type="animal">turtle-dove</rs>, and a young <rs type="animal">pigeon</rs>.'</seg> <seg type="verse" xml:id="ch15v10">10</seg>And <seg ana="#obedience">he took him all these</seg>, and <seg ana="#separation">divided them in the midst</seg>, and laid each half over against the other; but the <rs type="animal">birds</rs> divided he not. <seg type="verse" xml:id="ch15v11">11</seg>And the <rs type="animal">birds of prey</rs> came down upon the carcasses, and <persName ref="#abraham">Abram</persName> drove them away. <seg type="verse" xml:id="ch15v12">12</seg>And it came to pass, that, when the sun was going down, a deep sleep fell upon <persName ref="#abraham">Abram</persName>; and, lo, a dread, even a great darkness, fell upon him. <seg type="verse" xml:id="ch15v13">13</seg>And He said unto <persName ref="#abraham">Abram</persName>: <seg ana="#covenant">'<seg ana="#toledot">Know of a surety that thy <seg ana="#symbol">seed</seg> shall be a stranger in a land that is not theirs</seg>, and shall serve them; and they shall afflict them four hundred years <seg type="verse" xml:id="ch15v14">14</seg><seg ana="#punishment">and also that nation, whom they shall serve, will I judge</seg>; and <seg ana="#reward">afterward shall they come out with great substance</seg>. <seg type="verse" xml:id="ch15v15">15</seg><seg ana="#reward">But thou shalt go to thy fathers in peace; thou shalt be buried in a good old age.</seg> <seg type="verse" xml:id="ch15v16">16</seg>And in the fourth generation they shall come back hither; for the iniquity of the Amorite is not yet full.'</seg> <seg type="verse" xml:id="ch15v17">17</seg>And it came to pass, that, when the sun went down, and there was thick darkness, behold a smoking furnace, and a flaming torch that passed between these pieces. <seg type="verse" xml:id="ch15v18">18</seg><seg ana="#covenant">In that day the LORD made a covenant with <persName ref="#abraham">Abram</persName>, saying: '<seg ana="#toledot">Unto thy <seg ana="#symbol">seed</seg> have I given this land</seg>, from <placeName ref="#l_nile">the river of Egypt</placeName> unto the great river, <placeName ref="#l_euphrates">the river Euphrates</placeName> <seg type="verse" xml:id="ch15v19">19</seg>the Kenite, and the Kenizzite, and the Kadmonite <seg type="verse" xml:id="ch15v20">20</seg>and the Hittite, and the Perizzite, and the Rephaim <seg type="verse" xml:id="ch15v21">21</seg>and the Amorite, and the Canaanite, and the Girgashite, and the Jebusite.'</seg></ab></div>
+
+        </body>
+        
+        <back>
+            <div type="notes">
+                <note target="#a01">This is a note about that.</note>
+            </div>
+            <div type="editorial">                
+                <interpGrp type="motif">
+                    <desc>themes and motifs</desc>
+                    <interp xml:id="toledot">Generations in Genesis</interp>
+                    <interp xml:id="water">water</interp>
+                    <interp xml:id="separation">separation</interp>
+                    <interp xml:id="creation">creation</interp>
+                    <interp xml:id="consequence">consequence</interp>
+                    <interp xml:id="seven">seven</interp>
+                    <interp xml:id="food">food</interp>
+                    <interp xml:id="combination">combination</interp>
+                    <interp xml:id="farmer">farmer</interp>
+                    <interp xml:id="forty">forty</interp>
+                    <interp xml:id="shepherd">shepherd</interp>
+                </interpGrp>
+                
+                <interpGrp type="lit_device">
+                    <desc>literary devices</desc>
+                    <interp xml:id="repetition">repetition</interp>
+                    <interp xml:id="personification">personification</interp>
+                    <interp xml:id="symbol">symbol</interp>
+                    <interp xml:id="hyperbole">hyperbole</interp>
+                </interpGrp>
+                
+                <interpGrp type="authority">
+                    <desc>WHAT DO WE WRITE HERE?</desc>
+                    <interp xml:id="commandment">commandment</interp>
+                    <interp xml:id="declaration">declaration</interp>
+                    <interp xml:id="punishment">punishment</interp>
+                    <interp xml:id="obedience">obedience</interp>
+                    <interp xml:id="reward">reward</interp>
+                    <interp xml:id="covenant">covenant</interp>
+                    <interp xml:id="independence">independence</interp>
+                    <interp xml:id="disobedience">disobedience</interp>
+                </interpGrp>
+                
+                <interpGrp type="values">
+                    <desc>the good-vs-evil scale</desc>
+                    <interp xml:id="good">good</interp>
+                    <interp xml:id="holy">holy</interp>
+                    <interp xml:id="bad">bad</interp>
+                    <interp xml:id="evil">evil</interp>
+                    <interp xml:id="ambiguous">ambiguous</interp>
+                </interpGrp>
+            </div>
+            <div type="notes">
+                <note target="#xmlid"></note>
+            </div>
+        </back>
+    </text>
+</TEI>
+
