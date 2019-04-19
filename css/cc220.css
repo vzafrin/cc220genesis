@@ -111,7 +111,7 @@ body {
 #TEI {
   flex: 4 4 300px;
   height: 100%;
-  padding: 10px;
+  padding: 10px 50px 10px 50px;
   overflow-y: scroll;
   border-bottom: 1px solid lightgray;
   border-top: 1px solid lightgray;
@@ -427,6 +427,9 @@ img {
 
 .help-content {
   display: none;
+  font-size: 10pt;
+  padding-top: 0.5em;
+  line-height: 1.2em;
 }
 
 select {
