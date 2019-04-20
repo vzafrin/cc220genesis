@@ -1,5 +1,5 @@
 function updateBadges(){
-	var accordions = $('.accordion').each(function(){
+	$('.accordion').each(function(){
 		var selectionCount = $(this).next().find('p[data-style]').length;
 		$(this).find('.badge').text(selectionCount);
 	});
@@ -28,8 +28,6 @@ $( function() {
 	});
 });
 
-
-
 /*Convert a TEI document to HTML and insert into #TEI.*/
 var CETEIcean = new CETEI()
 CETEIcean.getHTML5("tei/gen1-15_master.xml", function(data) {
@@ -37,8 +35,9 @@ CETEIcean.getHTML5("tei/gen1-15_master.xml", function(data) {
 	$('tei-anchor').tooltip({
 	    items: 'tei-anchor',
 	    content: function () {
-	        var selector = 'tei-note[target="#'+this.id+'"]';
-	        return($(selector));
+			var ID = $(this).attr('id');
+			var selector = 'tei-note[target="#'+ID+'"]';
+			return $(selector).find('[hidden]').text();
 	    }
 	});
 	$('tei-persname').tooltip({
@@ -64,6 +63,7 @@ CETEIcean.getHTML5("tei/gen1-15_master.xml", function(data) {
 	    }
 	});
 	$("tei-seg[type='verse']").wrap("<sup />");
+	$("tei-anchor").html("<sup><i class='far fa-comment-alt light'></i><sup>");
 });		
 
 $(document).ready(function(){
@@ -101,7 +101,6 @@ $( document).on( "click", ".formatter", function() {
 	var newStyle= $(this).attr('id');
 	var target = $('#target').attr('data-target');
 	var targetID = "#"+target;
-
       
 	if (newStyle === "none"){
 		var currentStyle = $(targetID).attr('data-style');
@@ -110,7 +109,6 @@ $( document).on( "click", ".formatter", function() {
 		var selector = '[ana="'+targetID+'"]';
 		$(targetID).attr('data-style', newStyle);
 		$(selector).attr('data-style', newStyle);
-		
 	}
 	var panel = $(targetID).parent();
 		var height = panel.prop('scrollHeight')+ "px"

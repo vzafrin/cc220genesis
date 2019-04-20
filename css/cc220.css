@@ -17,7 +17,6 @@ body {
   left: -9999px;
 }
 
-
 #text-header {
   padding: 20px 10px 10px 10px;
   border-bottom: 1px solid lightgray;
@@ -36,7 +35,6 @@ body {
   left: 0;
   right: 20px;
   padding-top: 80px;
-
   background-color: white;
 }
 
@@ -47,7 +45,7 @@ body {
 #text-menu label {
   padding: 5px;
   border-radius: 5px;
-  background-color: : white;
+  background-color: white;
 }
 
 #text-menu label:hover {
@@ -70,7 +68,6 @@ body {
   font-size: small;
 }
 
-
 .header {
   display: flex;
   flex-direction: row;
@@ -84,6 +81,7 @@ body {
 .help {
   padding-left: 10px;
 }
+
 .help:hover{
   cursor:pointer;
 }
@@ -157,7 +155,6 @@ body {
   left: 0;
   right: 0;
   max-height: 60vh;
-  
   background: white;
   overflow-y: scroll;
   padding: 15px;
@@ -199,6 +196,7 @@ body {
   text-decoration: none;
   color:whitesmoke;
 }
+
 #nav-brand  {
   font-size: large;
  
@@ -229,7 +227,6 @@ body {
   border-bottom: 2px solid lightsalmon;
 }
 
-
 button {
   background: none;
   border: none;
@@ -238,6 +235,7 @@ button {
   font-size: 15px;
   color: black;
 }
+
 button:hover{
     cursor:pointer;
 }
@@ -255,14 +253,14 @@ button#highlight2 span, [data-style='highlight2'] {
 
 }
 
-  button#highlight3 span, [data-style='highlight3']{
+button#highlight3 span, [data-style='highlight3']{
   background: aqua;
   border-radius: 5px;
   padding: 2px 1px 2px 1px;
 
 }
 
-  button#highlight4 span, [data-style='highlight4'] {
+button#highlight4 span, [data-style='highlight4'] {
   background: aquamarine;
   border-radius: 5px;
   padding: 2px 1px 2px 1px;
@@ -353,17 +351,16 @@ button#italic span, [data-style='italic'] {
 }
 
 button#border span, [data-style='border'] {
-    border: 1px solid black;
-    border-radius: 5px;
+  border: 1px solid black;
+  border-radius: 5px;
   padding: 2px 0 2px 0;
 
 }
 
 button#dot span, [data-style='dot'] {
-border: 1px dotted black;
-border-radius: 5px;
+  border: 1px dotted black;
+  border-radius: 5px;
   padding: 2px 0 2px 0;
-
 }
 
 img { 
@@ -379,10 +376,10 @@ img {
   align-items: center;
   margin-top: 1em;
 }
+
 .accordion:hover {
   cursor: pointer;
 }
-
 
 .panel {
   padding: 0 18px;
@@ -390,11 +387,10 @@ img {
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
-  
 }
+
 .panel p {
   margin: .5em 0 .5em 0;
-
 }
 
 .badge {
@@ -408,7 +404,6 @@ img {
 
 #comment .content {
   line-height: 1.5em;
-
 }
 
 #notes-filter-label {
@@ -421,6 +416,7 @@ img {
   text-decoration: underline;
   font-size: 10pt;
 }
+
 #clear-formatting {
   margin-top: 1em;
 }
@@ -434,15 +430,13 @@ img {
 
 select {
   font-size: 10pt;
-
 }
 
-tei-anchor:after {
-  content: '*';
-}
 tei-anchor:hover{
   cursor: pointer;
+  color: lightsalmon;
 }
+
 tei-persname:hover, tei-placename:hover{
   cursor: pointer;
   text-decoration: underline;
