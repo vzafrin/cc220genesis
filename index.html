@@ -30,12 +30,12 @@
     <div id="text-header">
       <div id="text-menu">
         <input type="checkbox" id="comment-toggle" data-for="comment" class="menu-item offscreen"/>
-        <label for="comment-toggle" title="Analyze"><i class="fas fa-book-open light small" aria-hidden="true"></i><span class="menu-text small"> Analyze</span></label>
+        <label for="comment-toggle" aria-label="Open or close Analyze panel"><i class="fas fa-book-open light small" aria-hidden="true"></i><span class="menu-text small"> Analyze</span></label>
         <input type="checkbox" id="interp-toggle" data-for="interp" class="menu-item offscreen"/>
-        <label for="interp-toggle" title="Reveal"><i class="fas fa-fill-drip light small" aria-hidden="true"></i><span class="menu-text small"> Reveal</span></label>  
+        <label for="interp-toggle" aria-label="Open or close Reveal panel"><i class="fas fa-fill-drip light small" aria-hidden="true"></i><span class="menu-text small"> Reveal</span></label>  
       </div>
       <div>
-        <label id="notes-filter-label" for="notes-filter" title="Notes filter"><i class="fas fa-filter light small" aria-hidden="true"></i><span class="menu-text">  Notes Filter</span></label>
+        <label id="notes-filter-label" for="notes-filter" aria-label="Filter notes by author"><i class="fas fa-filter light small" aria-hidden="true"></i><span class="menu-text">  Notes Filter</span></label>
         <select id="notes-filter">
           <option value="">All</option>
           <option value="one">Person One</option>
@@ -51,7 +51,8 @@
      
       <div id="comment" class="panel panel-md">
           <div class="header">
-            <span><i class="fas fa-book-open" aria-hidden="true"></i> Analyze<i class="far fa-question-circle light help" aria-hidden="true"></i></span><i class="fa fa-times close light" data-for="comment" aria-hidden="true"></i>
+            <span><i class="fas fa-book-open" aria-hidden="true"></i> Analyze<i class="far fa-question-circle light help" aria-hidden="true"></i><span class="sr-only">More information</span></span>
+            <span><i class="fa fa-times close light" data-for="comment" aria-hidden="true"></i><span class="sr-only">Close the panel</span></span>
           </div>
           <div id="comment-help" class="help-content">
             Toward the end of the semester, we asked course participants to create problem-question statements intended to highlight interesting aspects of the text and pose questions that might enrich the reading experience. These short pieces are available here. <span class="ok light">close</span>
@@ -71,13 +72,20 @@
 
       <div id="interp" class="panel panel-sm">
         <div class="header">
-          <span><i class="fas fa-fill-drip" aria-hidden="true"></i> Reveal<i class="far fa-question-circle light help" aria-hidden="true"></i></span><i class="fa fa-times close light" data-for="interp" aria-hidden="true"></i>   
+          <span><i class="fas fa-fill-drip" aria-hidden="true"></i> Reveal<i class="far fa-question-circle light help" aria-hidden="true"></i><span class="sr-only">More information</span></span>
+          <span><i class="fa fa-times close light" data-for="interp" aria-hidden="true"></i><span class="sr-only">Close the panel</span></span>
         </div>
         <div id="interp-help" class="help-content">
           Here, you can choose to highlight various aspects of the text as collectively encoded by our class. Click on one of the categories below, then click on the sub-category you would like to highlight and choose how you would like to view it. If you do not see the primary text change, scroll down. <span class="ok light">close</span>
         </div>
         <div id="clear-formatting" class="light">Clear all formatting</div>
-        <div class="accordion"><span>Themes &amp; Motifs</span><div><span class="badge">0</span><i class="fas fa-chevron-down arrow light" aria-hidden="true"></i></div></div>
+        <div class="accordion">
+          <span>Themes &amp; Motifs</span>
+          <div>
+            <span class="badge">0</span>
+            <span><i class="fas fa-chevron-down arrow light" aria-hidden="true"></i><span class="sr-only">Expand or collapse section</span></span>
+          </div>
+        </div>
         <div class="interp-group">
             <p id="toledot" class="interp"><span>generations</span></p>
             <p id="water" class="interp"><span>water</span></p>
@@ -92,7 +100,12 @@
             <p id="shepherd" class="interp"><span>shepherd</span></p>	
       </div>
         
-      <div class="accordion"><span>Literary Devices</span><div><span class="badge">0</span><i class="fas fa-chevron-down arrow light" aria-hidden="true"></i></div></div>
+      <div class="accordion"><span>Literary Devices</span>
+        <div>
+          <span class="badge">0</span>
+          <span><i class="fas fa-chevron-down arrow light" aria-hidden="true"></i><span class="sr-only">Expand or collapse section</span></span>
+        </div>
+      </div>
         <div class="interp-group">
           <p id="repetition" class="interp"><span>repetition</span></p>
           <p id="personification" class="interp"><span>personification</span></p>
@@ -100,7 +113,13 @@
           <p id="hyperbole" class="interp"><span>hyperbole</span></p>
         </div>
         
-      <div class="accordion"><span>Authority</span><div><span class="badge">0</span><i class="fas fa-chevron-down arrow light" aria-hidden="true"></i></div></div>
+      <div class="accordion">
+        <span>Authority</span>
+        <div>
+          <span class="badge">0</span>
+          <span><i class="fas fa-chevron-down arrow light" aria-hidden="true"></i><span class="sr-only">Expand or collapse section</span></span>
+        </div>
+      </div>
         <div class="interp-group">
           <p id="commandment" class="interp">commandment</p>
           <p id="declaration" class="interp"><span>declaration</span></p>
@@ -112,7 +131,13 @@
           <p id="disobedience" class="interp"><span>disobedience</span></p>
         </div>
       
-        <div class="accordion"><span>Values</span><div><span class="badge">0</span><i class="fas fa-chevron-down arrow light" aria-hidden="true"></i></div></div>
+        <div class="accordion">
+          <span>Values</span>
+          <div>
+            <span class="badge">0</span>
+            <span><i class="fas fa-chevron-down arrow light" aria-hidden="true"></i><span class="sr-only">Expand or collapse section</span></span>
+          </div>
+        </div>
           <div class="interp-group">
               <p id="good" class="interp">good</p>
               <p id="holy" class="interp"><span>holy</span></p>
