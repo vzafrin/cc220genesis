@@ -523,7 +523,7 @@
         
         <back>
             <div type="notes">
-                <note target="#a01">This is a note about that.</note>
+                <note target="#a01">This is a <ref target="http://www.google.com">note</ref> about that. A really really long note. Longer than you might expect.  Super duper long.</note>
             </div>
             <div type="editorial">                
                 <interpGrp type="motif">

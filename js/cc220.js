@@ -5,7 +5,7 @@ function updateBadges(){
 	});
 }
 
-function clearFormatting(dataStyle=""){
+function clearFormatting(dataStyle="") {
 	if(dataStyle!==""){
 		var selector = "[data-style='"+dataStyle+"']";
 		$(selector).removeAttr('data-style');
@@ -37,9 +37,41 @@ CETEIcean.getHTML5("tei/gen1-15_master.xml", function(data) {
 	    content: function () {
 			var ID = $(this).attr('id');
 			var selector = 'tei-note[target="#'+ID+'"]';
-			return $(selector).find('[hidden]').text();
-	    }
-	});
+			var html = $(selector).find('[hidden]').html() + " <span class='small pointer light'>close</span>";
+			return html;
+		},
+		open: function (event, ui) {
+			var $element = $(event.target);
+			ui.tooltip.click(function () {
+				$element.tooltip('close');
+			});
+		},
+		
+	})
+	.on('mouseout focusout', function(event) {
+        event.stopImmediatePropagation();
+	})
+	// Handle bug #10689 Memory Leak
+	.each(function(idx, element) {
+		var ele = $(element);
+		ele.tooltip({
+			"close": function(evt, ui) {
+				ele.data("ui-tooltip").liveRegion.children().remove();         
+			} 
+		});  
+	});     
+	$('tei-anchor').click(function () {
+		$(this).tooltip('open');
+	})
+	// Handle bug #10689 Memory Leak
+	.each(function(idx, element) {
+		var ele = $(element);
+		ele.tooltip({
+			"close": function(evt, ui) {
+				ele.data("ui-tooltip").liveRegion.children().remove();         
+			} 
+		});  
+	});     
 	$('tei-persname').tooltip({
 	    items: 'tei-persname',
 	    content: function () {
@@ -53,7 +85,16 @@ CETEIcean.getHTML5("tei/gen1-15_master.xml", function(data) {
 	        var dates = birthString || deathString ? birthString+'-'+deathString : "";
 	        return name+' ('+gender+') ' + dates
 	    }
-	});
+	})
+	// Handle bug #10689 Memory Leak
+	.each(function(idx, element) {
+		var ele = $(element);
+		ele.tooltip({
+			"close": function(evt, ui) {
+				ele.data("ui-tooltip").liveRegion.children().remove();         
+			} 
+		});  
+	});     
 	$('tei-placename').tooltip({
 	    items: 'tei-placename',
 	    content: function () {
@@ -136,11 +177,20 @@ $( document).on( "click", ".close", function() {
 });
 
 $(document).on("click", ".nav-item", function() {
-	$(".section").hide();
 	$('.nav-item').removeClass('active');
 	$(this).addClass('active');
-	var targetID = "#" + $(this).attr("data-section");
-	$(targetID).show();
+	var section = $(this).attr('data-section');
+	console.log(section);
+	if (["about","bibliography"].indexOf(section) >= 0){
+		var html = "includes/"+section+".html"
+		console.log(html);
+		$("#page").load(html);
+		$("#page").show();
+		$("#text").hide();
+	} else {
+		$("#page").hide();
+		$("#text").show();
+	}
 });
 
 $(document).on("click", ".help", function() {
