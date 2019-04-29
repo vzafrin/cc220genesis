@@ -5,8 +5,8 @@ function updateBadges(){
 	});
 }
 
-function clearFormatting(dataStyle="") {
-	if(dataStyle!==""){
+function clearFormatting(dataStyle) {
+	if(!dataStyle){
 		var selector = "[data-style='"+dataStyle+"']";
 		$(selector).removeAttr('data-style');
 	} else {
@@ -29,83 +29,86 @@ $( function() {
 });
 
 /*Convert a TEI document to HTML and insert into #TEI.*/
-var CETEIcean = new CETEI()
-CETEIcean.getHTML5("tei/gen1-15_master.xml", function(data) {
-	document.getElementById("TEI").appendChild(data);
-	$('tei-anchor').tooltip({
-	    items: 'tei-anchor',
-	    content: function () {
-			var ID = $(this).attr('id');
-			var selector = 'tei-note[target="#'+ID+'"]';
-			var html = $(selector).find('[hidden]').html() + " <span class='small pointer light'>close</span>";
-			return html;
-		},
-		open: function (event, ui) {
-			var $element = $(event.target);
-			ui.tooltip.click(function () {
-				$element.tooltip('close');
-			});
-		},
-		
-	})
-	.on('mouseout focusout', function(event) {
-        event.stopImmediatePropagation();
-	})
-	// Handle bug #10689 Memory Leak
-	.each(function(idx, element) {
-		var ele = $(element);
-		ele.tooltip({
-			"close": function(evt, ui) {
-				ele.data("ui-tooltip").liveRegion.children().remove();         
-			} 
-		});  
-	});     
-	$('tei-anchor').click(function () {
-		$(this).tooltip('open');
-	})
-	// Handle bug #10689 Memory Leak
-	.each(function(idx, element) {
-		var ele = $(element);
-		ele.tooltip({
-			"close": function(evt, ui) {
-				ele.data("ui-tooltip").liveRegion.children().remove();         
-			} 
-		});  
-	});     
-	$('tei-persname').tooltip({
-	    items: 'tei-persname',
-	    content: function () {
-	    	var selector = $(this).attr('ref');
-	        var name = ($(selector).text());
-	        var birth = ($(selector).find('tei-birth').attr('when-custom'));
-	        var birthString = birth > 0 && birth < 9999 ? birth : "";
-	        var death = ($(selector).find('tei-death').attr('when-custom'));
-	        var deathString = death > 0 && death < 9999 ? death : "";
-	        var gender = ($(selector).attr('sex'));
-	        var dates = birthString || deathString ? birthString+'-'+deathString : "";
-	        return name+' ('+gender+') ' + dates
-	    }
-	})
-	// Handle bug #10689 Memory Leak
-	.each(function(idx, element) {
-		var ele = $(element);
-		ele.tooltip({
-			"close": function(evt, ui) {
-				ele.data("ui-tooltip").liveRegion.children().remove();         
-			} 
-		});  
-	});     
-	$('tei-placename').tooltip({
-	    items: 'tei-placename',
-	    content: function () {
-	    	var selector = $(this).attr('ref');
+var CETEI;
+if (CETEI) {
+	var CETEIcean = new CETEI()
+	CETEIcean.getHTML5("tei/gen1-15_master.xml", function(data) {
+		document.getElementById("TEI").appendChild(data);
+		$('tei-anchor').tooltip({
+			items: 'tei-anchor',
+			content: function () {
+				var ID = $(this).attr('id');
+				var selector = 'tei-note[target="#'+ID+'"]';
+				var html = $(selector).find('[hidden]').html() + " <span class='small pointer light'>close</span>";
+				return html;
+			},
+			open: function (event, ui) {
+				var $element = $(event.target);
+				ui.tooltip.click(function () {
+					$element.tooltip('close');
+				});
+			},
+			
+		})
+		.on('mouseout focusout', function(event) {
+			event.stopImmediatePropagation();
+		})
+		// Handle bug #10689 Memory Leak
+		.each(function(idx, element) {
+			var ele = $(element);
+			ele.tooltip({
+				"close": function(evt, ui) {
+					ele.data("ui-tooltip").liveRegion.children().remove();         
+				} 
+			});  
+		});     
+		$('tei-anchor').click(function () {
+			$(this).tooltip('open');
+		})
+		// Handle bug #10689 Memory Leak
+		.each(function(idx, element) {
+			var ele = $(element);
+			ele.tooltip({
+				"close": function(evt, ui) {
+					ele.data("ui-tooltip").liveRegion.children().remove();         
+				} 
+			});  
+		});     
+		$('tei-persname').tooltip({
+			items: 'tei-persname',
+			content: function () {
+				var selector = $(this).attr('ref');
+				var name = ($(selector).text());
+				var birth = ($(selector).find('tei-birth').attr('when-custom'));
+				var birthString = birth > 0 && birth < 9999 ? birth : "";
+				var death = ($(selector).find('tei-death').attr('when-custom'));
+				var deathString = death > 0 && death < 9999 ? death : "";
+				var gender = ($(selector).attr('sex'));
+				var dates = birthString || deathString ? birthString+'-'+deathString : "";
+				return name+' ('+gender+') ' + dates
+			}
+		})
+		// Handle bug #10689 Memory Leak
+		.each(function(idx, element) {
+			var ele = $(element);
+			ele.tooltip({
+				"close": function(evt, ui) {
+					ele.data("ui-tooltip").liveRegion.children().remove();         
+				} 
+			});  
+		});     
+		$('tei-placename').tooltip({
+			items: 'tei-placename',
+			content: function () {
+				var selector = $(this).attr('ref');
 
-	        return $(selector).text();
-	    }
-	});
-	$("tei-seg[type='verse']").wrap("<sup />");
-	$("tei-anchor").html("<sup><i class='far fa-comment-alt light'></i><sup>");
-});		
+				return $(selector).text();
+			}
+		});
+		$("tei-seg[type='verse']").wrap("<sup />");
+		$("tei-anchor").html("<sup><i class='far fa-comment-alt light'></i><sup>");
+	});	
+}	
 
 $(document).ready(function(){
 	if($('#comment-toggle').is(':checked')) {
@@ -114,6 +117,19 @@ $(document).ready(function(){
 	if($('#interp-toggle').is(':checked')) {
 		$('#interp').show();
 	} 
+	$('#notes-filter').change(function(){ 
+		var resp = $(this).val();
+		if(resp === "all"){
+			$("tei-anchor").show();
+		} else {
+			$("tei-anchor").hide();
+			var noteSelector = 'tei-note[resp="#'+resp+'"]';
+			$(noteSelector).each(function(){
+				anchorSelector = $(this).attr("target");
+				$(anchorSelector).show();
+			});
+		}
+	});
 })
 
 $( document ).on("click",".accordion", function() {	
@@ -205,3 +221,5 @@ $(document).on("click", "#clear-formatting", function() {
 	clearFormatting();
 	updateBadges();
 })
+
+
