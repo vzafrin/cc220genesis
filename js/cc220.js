@@ -34,46 +34,20 @@ if (CETEI) {
 	var CETEIcean = new CETEI()
 	CETEIcean.getHTML5("tei/gen1-15_master.xml", function(data) {
 		document.getElementById("TEI").appendChild(data);
-		$('tei-anchor').tooltip({
-			items: 'tei-anchor',
-			content: function () {
-				var ID = $(this).attr('id');
-				var selector = 'tei-note[target="#'+ID+'"]';
-				var html = $(selector).find('[hidden]').html() + " <span class='small pointer light'>close</span>";
-				return html;
-			},
-			open: function (event, ui) {
-				var $element = $(event.target);
-				ui.tooltip.click(function () {
-					$element.tooltip('close');
-				});
-			},
-			
-		})
-		.on('mouseout focusout', function(event) {
-			event.stopImmediatePropagation();
-		})
-		// Handle bug #10689 Memory Leak
-		.each(function(idx, element) {
-			var ele = $(element);
-			ele.tooltip({
-				"close": function(evt, ui) {
-					ele.data("ui-tooltip").liveRegion.children().remove();         
-				} 
-			});  
-		});     
-		$('tei-anchor').click(function () {
-			$(this).tooltip('open');
-		})
-		// Handle bug #10689 Memory Leak
-		.each(function(idx, element) {
-			var ele = $(element);
-			ele.tooltip({
-				"close": function(evt, ui) {
-					ele.data("ui-tooltip").liveRegion.children().remove();         
-				} 
-			});  
-		});     
+		
+		$('tei-anchor').wrap(function(){
+			var ID = $(this).attr('id');
+			var selector = 'tei-note[target="#'+ID+'"]';
+			var respID = $(selector).attr("resp");
+			var name = $(respID).find("tei-name").text();
+			var html = $(selector).find('[hidden]').html();
+			if(html){
+				html = '<i class= "small">' + name + '</i>: ' + html;
+				html = html.replace(/"/g, "&quot;");
+				return '<a tabindex="0" data-toggle="popover" data-trigger="focus" data-content="' + html + '" />' ;
+			}
+			return false;
+		});  
 		$('tei-persname').tooltip({
 			items: 'tei-persname',
 			content: function () {
@@ -104,7 +78,15 @@ if (CETEI) {
 
 				return $(selector).text();
 			}
-		});
+		})// Handle bug #10689 Memory Leak
+		.each(function(idx, element) {
+			var ele = $(element);
+			ele.tooltip({
+				"close": function(evt, ui) {
+					ele.data("ui-tooltip").liveRegion.children().remove();         
+				} 
+			});  
+		});  
 		$("tei-seg[type='verse']").wrap("<sup />");
 		$("tei-anchor").html("<sup><i class='far fa-comment-alt light'></i><sup>");
 	});	
@@ -130,6 +112,15 @@ $(document).ready(function(){
 			});
 		}
 	});
+	$(function () {
+		$('[data-toggle="popover"]')
+			.popover({
+				container: "#TEI", 
+				html: true, 
+				placement: "bottom", 
+				sanitize: false
+			});
+	})
 })
 
 $( document ).on("click",".accordion", function() {	
