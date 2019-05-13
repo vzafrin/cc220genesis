@@ -157,8 +157,9 @@ select {
 /*Panels*/
 .panel-md, .panel-sm, .panel-lg {
   padding: 0 10px 10px 10px;
-  height: calc(100% - 20px);
+  height: calc(100% - 10px);
   overflow-y: scroll;
+  overflow-x: hidden;
   border-top: 1px solid lightgray;
 }
 
@@ -210,8 +211,54 @@ select {
   line-height: 1.2em;
   position: sticky;
   top: 28px;
+  z-index: 60;
+  background-color: white;
+}
+
+/*Prompt Panel*/
+#prompt-selection label {
+  cursor: pointer; 
+  display: block; 
+}
+
+
+#prompts > .subheader {
+  font-size: 10pt;
+  padding-top: 0.5em;
+  padding-bottom: 1em;
+  line-height: 1.2em;
+  position: sticky;
+  top: 28px;
   z-index: 50;
   background-color: white;
+}
+
+.prompt-title, .prompt-section-title, .prompt-section, .prompt-author, .prompt-citation {
+  display: block;
+}
+.prompt-title {
+  margin-top: 1em;
+  font-size: 14pt;
+}
+
+.prompt-author {
+  font-size: 10pt;
+  color: gray;
+  margin-bottom: 1em;
+}
+
+.prompt-section {
+  margin-bottom: 1em;
+}
+
+.prompt-section-quote {
+  margin: 0 1em 1em 1em;
+}
+
+.prompt-citation {
+  text-indent: -2em; 
+  margin: 0 0 .5em 2em;
+  font-size: 10pt;
 }
 
 /*Interp Panel*/

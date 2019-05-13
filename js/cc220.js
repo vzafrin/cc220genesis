@@ -6,12 +6,18 @@ function updateBadges(){
 }
 
 function clearFormatting(dataStyle) {
-	if(!dataStyle){
+	if(dataStyle){
 		var selector = "[data-style='"+dataStyle+"']";
 		$(selector).removeAttr('data-style');
 	} else {
 		$('[data-style]').removeAttr('data-style');
 	}
+}
+
+function displayAnalyzeSelection(selection){
+	var html = "includes/analyze-"+selection+".html";
+	$("#prompt").load(html);
+	$("#prompts").scrollTop(0);
 }
 
 $( function() {
@@ -93,8 +99,8 @@ if (CETEI) {
 }	
 
 $(document).ready(function(){
-	if($('#comment-toggle').is(':checked')) {
-		$('#comment').show();
+	if($('#prompts-toggle').is(':checked')) {
+		$('#prompts').show();
 	} 
 	if($('#interp-toggle').is(':checked')) {
 		$('#interp').show();
@@ -121,6 +127,47 @@ $(document).ready(function(){
 				sanitize: false
 			});
 	})
+	$('tei-persname').tooltip({
+		items: 'tei-persname',
+		content: function () {
+			var selector = $(this).attr('ref');
+			var name = ($(selector).text());
+			var birth = ($(selector).find('tei-birth').attr('when-custom'));
+			var birthString = birth > 0 && birth < 9999 ? birth : "";
+			var death = ($(selector).find('tei-death').attr('when-custom'));
+			var deathString = death > 0 && death < 9999 ? death : "";
+			var gender = ($(selector).attr('sex'));
+			var dates = birthString || deathString ? birthString+'-'+deathString : "";
+			return name+' ('+gender+') ' + dates
+		}
+	})
+	// Handle bug #10689 Memory Leak
+	.each(function(idx, element) {
+		var ele = $(element);
+		ele.tooltip({
+			"close": function(evt, ui) {
+				ele.data("ui-tooltip").liveRegion.children().remove();         
+			} 
+		});  
+	});     
+	$('tei-placename').tooltip({
+		items: 'tei-placename',
+		content: function () {
+			var selector = $(this).attr('ref');
+
+			return $(selector).text();
+		}
+	})// Handle bug #10689 Memory Leak
+	.each(function(idx, element) {
+		var ele = $(element);
+		ele.tooltip({
+			"close": function(evt, ui) {
+				ele.data("ui-tooltip").liveRegion.children().remove();         
+			} 
+		});  
+	}); 
+	var prompt = $("#prompt-selection").val();
+	displayAnalyzeSelection(prompt);
 })
 
 $( document ).on("click",".accordion", function() {	
@@ -190,7 +237,6 @@ $(document).on("click", ".nav-item", function() {
 	console.log(section);
 	if (["about","bibliography"].indexOf(section) >= 0){
 		var html = "includes/"+section+".html"
-		console.log(html);
 		$("#page").load(html);
 		$("#page").show();
 		$("#text").hide();
@@ -213,4 +259,13 @@ $(document).on("click", "#clear-formatting", function() {
 	updateBadges();
 })
 
+$(document).on("change", "input[name='prompt']", function() {
+	var selection = $(this).val();
+	$('#prompt-selection').val(selection).prop('selected', true);
+	displayAnalyzeSelection(selection);
+})
 
+$(document).on("change", "#prompt-selection", function() {
+	var selection = $(this).val();
+	displayAnalyzeSelection(selection);
+})
